@@ -10,7 +10,7 @@ function Hero() {
       <div className="grid items-center  lg:grid-cols-2 md:justify-items-center xl:justify-items-end">
         <div className="mt-12 lg:mt-0">
           <h1 className="mt-0 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(218,81%,95%)]">
-            Bienvenue, moi c'est Sofiane <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">développeur frontend React</span>
+            Bonjour, moi c'est Sofiane <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">développeur frontend React</span>
           </h1>
         </div>
         <div className="mb-12 lg:mb-0 sm:mt-4 mx-auto md:mx-0 w-auto " >
