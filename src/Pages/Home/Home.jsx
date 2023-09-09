@@ -40,7 +40,7 @@ function Home() {
                     Styliser le DOM, Faire du javascript asynchrone, Créer et utiliser des promesses, Utiliser des API, 
                     Utiliser le Spread operator, Utiliser le Rest operator, Utiliser les fonctions pures, Utiliser les fonctions d'ordres supérieurs, 
                     Utiliser des fonctions comme expression, Créer utiliser des classes, Créer utiliser des sous-classes, 
-                    Utiliser les constructors natif, Créer des méthodes, Faire des chaînes de méthodes">
+                    Utiliser les constructors natif, Créer des méthodes, Faire des chaînes de méthodes.">
                         {<Progress  percent={'75%'}/>}
                     </Card>
                     <Card logo={ts} title="Typescript" content="Manipuler la syntaxe de TypeScript,
@@ -99,7 +99,7 @@ function Home() {
                     </Card>
                     <Card logo={jest} title="Jest" content="Développer avec les méthodes BDD et TDD,
                     Définir des specifications, suites, résultats attendus, etc.,
-                    Écrire des tests géniaux pour maintenir votre code
+                    Écrire des tests géniaux pour maintenir votre code,
                     Identifier le type de bug ,
                     Déboguer du HTML et CSS ,
                     Déboguer des bugs sur le DOM ,
@@ -108,6 +108,9 @@ function Home() {
                         {<Progress  percent={'60%'}/>}
                     </Card>
                 </div>
+            </div>
+            <div id='projets'>
+                <h2 className='mt-12  text-6xl text-[hsl(218,81%,95%)] text-center'>Mes Projets</h2>
             </div>
         </main>    
     )
