@@ -10,7 +10,7 @@ function Card({logo, title, content, children}) {
 
     return(
     <div className="max-w-sm mb-6 rounded-lg overflow-hidden shadow-lg shadow-white bg-transparent text-[hsl(218,81%,95%)] mx-2 w-full h-full cursor-pointer scale-100 hover:scale-105 hover:brightness-125 brightness-100" onClick={toggleCard} >
-        <img className="w-full mx-auto h-64 bg-[hsl(218,81%,95%)]"  src={logo} alt="logo skill"/>
+        <img className="w-full mx-auto h-64 bg-[hsl(218,81%,95%)]"  src={logo} alt={`logo ${title}`}/>
         {open &&     
         <div id="contentCard" className='px-6 py-4 max-h-44 overflow-y-scroll bg-black bg-opacity-75 italic'>
             <div className="font-lora font-bold text-xl mb-2 ">{title}</div>

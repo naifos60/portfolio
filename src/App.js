@@ -11,7 +11,7 @@ function App() {
           <Header />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/competence' element={<Skills />} />
+            <Route path='/competences' element={<Skills />} />
             <Route path='*' element={<Error />} />
           </Routes>
           <Footer content="Copyright 2020 Argent Bank" />
