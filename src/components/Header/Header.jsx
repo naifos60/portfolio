@@ -1,7 +1,6 @@
 import menu from "../../assets/images/menu.svg";
 import cross from "../../assets/images/cross.svg";
 import { useState } from "react";
-import { NavLink } from "react-router-dom"
 
 function Header(){
  const [open, setOpen] = useState('hidden')
@@ -59,19 +58,19 @@ function Header(){
           onClick={toggleNav}
         >
           <li className="block py-3 md:inline md:py-0 md:mr-6">
-            <NavLink
-              to={"/"}
+            <a
+              href="/"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Accueil
-            </NavLink>
+            </a>
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
-            <NavLink to={"/competences"}
+            <a href="#competences"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Compétences
-            </NavLink>
+            </a>
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
