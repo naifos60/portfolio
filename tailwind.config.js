@@ -19,9 +19,6 @@ module.exports = {
       maxWidth: {
         260: '260px',
       },
-      backgroundImage: {
-        "space": "url('/src/assets/images/background2.jpg')",
-      },
     }, 
   },
   plugins: [],

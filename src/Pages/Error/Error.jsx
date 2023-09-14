@@ -1,8 +1,10 @@
 import '../.././index.css';
+import ParticlesBackground from "../../components/Particles/ParticlesBackgound"
 
 function Error() {
     return(
-    <main className='relative mt-16 bg-space bg-no-repeat bg-cover bg-center bg-opacity-50 h-screen' >
+    <main className='relative mt-16 ' >
+        <ParticlesBackground/>
         <div className = 'pb-20 pt-36 text-center md:mb-56  md:h-full'>
             <h2 className = 'text-9xl mt-16 mb-0 h-160 w-auto text-[hsl(218,81%,95%)]'>404</h2>
             <p className = 'text-2xl fw-500 lh-51.34 mb-16 mt-8 text-[hsl(218,81%,95%)]'>Oups! La page que vous demandez n'existe pas.</p>

@@ -13,9 +13,13 @@ function Hero() {
           <h1 className="mt-O mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(218,81%,95%)]">
             Bonjour, moi c'est Sofiane <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">
               <Typed strings={[
-                "développeur web frontend React"]}
+                "développeur web frontend Javascript",
+              "développeur web frontend Typescript",
+              "développeur web frontend React",
+              "développeur web frontend ..."
+            ]}
                 typeSpeed={60}
-                backSpeed={55}
+                backSpeed={45}
                  /></span>
           </h1>
         </div>
