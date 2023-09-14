@@ -1,5 +1,6 @@
 import menu from "../../assets/images/menu.svg";
 import cross from "../../assets/images/cross.svg";
+import logoRs from '../../assets/images/logoRs.png';
 import { useState } from "react";
 
 function Header(){
@@ -34,8 +35,7 @@ function Header(){
           aria-label="Accueil du portfolio"
           className="text-lg lg:text-xl"
         >
-          Naifos
-          <span className="font-bold">Dev<span className="text-blue-night">.</span></span>
+         <img src={logoRs} alt="logo du développeur" className="w-8 h-8 "/>
         </a>
         <button
           aria-controls="main-navlist"

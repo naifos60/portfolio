@@ -19,6 +19,12 @@ module.exports = {
       maxWidth: {
         260: '260px',
       },
+      backgroundImage: {
+        "sof": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0.7)), url('../src/assets/images/sof1.jpg')"
+      },
+      spacing: {
+        "555": '34rem'
+      }
     }, 
   },
   plugins: [],

@@ -5,12 +5,12 @@ import ParticlesBackground from "../Particles/ParticlesBackgound"
 
 function Hero() {
     return(
-<div id="acceuil" className="px-6 py-12 text-center md:px-12 lg:text-left h-max md:h-screen md:flex md:items-center">
+<div id="acceuil" className=" text-center  lg:text-left h-auto md:h-555 md:mb-12 md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top lg:mb-48 md:bg-right  bg-sof">
   <ParticlesBackground/>
     <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl flex xl:items-center">
       <div className="grid h-auto items-center lg:grid-cols-2 md:justify-items-center " >
-        <div className="mt-12 lg:mt-0">
-          <h1 className="mt-O mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(218,81%,95%)]">
+        <div className="mt-4 lg:mt-0">
+          <h1 className="mt-O mb-8 text-3xl font-bold tracking-tight sm:text-6xl xl:text-7xl text-[hsl(218,81%,95%)]">
             Bonjour, moi c'est Sofiane <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">
               <Typed strings={[
                 "développeur web frontend Javascript",
