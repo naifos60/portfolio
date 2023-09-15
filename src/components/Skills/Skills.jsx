@@ -5,7 +5,7 @@ import react from '../../assets/images/react.png';
 import git from '../../assets/images/GitHublogo.png';
 import jest from '../../assets/images/jest2.png';
 import seo from '../../assets/images/seo.png';
-import agile from '../../assets/images/agile.jpeg';
+import agile from '../../assets/images/agile.png';
 import ts from '../../assets/images/typescript.png';
 import bureau from '../../assets/images/5.png';
 
