@@ -20,8 +20,8 @@ module.exports = {
         260: '260px',
       },
       backgroundImage: {
-        "sof": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0.7)), url('../src/assets/images/sof1.jpg')",
-        "describe": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0.9)), url('../src/assets/images/background2.PNG')"
+        "sof": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0)), url('../src/assets/images/sof1.jpg')",
+        "describe": "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/9.jpg')"
       },
       spacing: {
         "555": '34rem'
