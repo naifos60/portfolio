@@ -15,7 +15,7 @@ function Progress({percent, color, logo, skill, content}) {
     setHover(!hover)
   }
   return (
-    <div className='w-full px-4 lg:w-full lg:px-16 mt-4 h-8 mb-0  cursor-pointer ' onClick={toggleModal}>
+    <div className='w-full px-4 lg:w-full lg:px-16 mt-4 h-8 mb-0  cursor-pointer' onClick={toggleModal}>
         <div onMouseEnter={changeTextAtHover} onMouseLeave={changeTextAtHover} className='bg-white  relative h-10 w-full rounded-md mb-8 bottom-4 brightness-75 hover:brightness-100 scale-100 hover:scale-105'>
           <div className={`absolute top-0 left-0 flex h-full  items-center justify-between rounded-md text-xs  text-black`} style={{backgroundColor:`${color}`,width:`${percent}`}}>
             {!hover ? <p className='font-serif text-xs absolute left-1/2'>{skill}</p> : <p className='font-serif text-xs absolute left-1/2 bg-white bg-opacity-60 rounded-lg px-2'>OPEN</p>}
