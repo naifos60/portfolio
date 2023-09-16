@@ -1,4 +1,4 @@
-import logoRs from '../../assets/images/logoRs.png';
+import logoRs from '../../assets/images/logo/logoRs.png';
 
 function Describe() {
     return(

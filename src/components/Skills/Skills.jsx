@@ -1,22 +1,22 @@
 import Progress from '../../components/Progress/Progress';
-import htmlLogo from '../../assets/images/htmlcss.png';
-import js from '../../assets/images/js.png';
-import react from '../../assets/images/react.png';
-import git from '../../assets/images/GitHublogo.png';
-import jest from '../../assets/images/jest2.png';
-import seo from '../../assets/images/seo.png';
-import agile from '../../assets/images/agile.png';
-import ts from '../../assets/images/typescript.png';
-import bureau from '../../assets/images/5.png';
+import htmlLogo from '../../assets/images/logo/htmlcss.png';
+import js from '../../assets/images/logo/js.png';
+import react from '../../assets/images/logo/react.png';
+import git from '../../assets/images/logo/GitHublogo.png';
+import jest from '../../assets/images/logo/jest2.png';
+import seo from '../../assets/images/logo/seo.png';
+import agile from '../../assets/images/logo/agile.png';
+import ts from '../../assets/images/logo/typescript.png';
+import bureau from '../../assets/images/background/5.png';
 
 
 function Skills() {
     return(
-        <div id='competences' className='mx-auto  lg:mt-0 flex flex-col items-center relative lg:h-full'>
-                <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>A PROPOS</h2>
-                <h3 className='  font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Mes compétences à votre service</h3>
-                <div className='flex flex-col lg:flex-row justify-center items-center w-full h-full py-12'>
-                        <img src={bureau} alt="bureau avec ordinateur dessus" className='w-auto h-555 lg:w-2/4 object-contains lg:my-0 lg:flex-start px-8 lg:pl-0 my-8 lg:mx-0 lg:border-r-2 pb-12 lg:pb-0 lg:pr-36 lg:rounded 'style={{borderRadius: "0% 100% 57% 43% / 98% 65% 35% 2%"}}/>
+        <section id='competences' className='mx-auto  lg:mt-0 flex flex-col items-center relative lg:h-full'>
+            <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>A PROPOS</h2>
+            <h3 className='  font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Mes compétences à votre service</h3>
+            <div className='flex flex-col lg:flex-row justify-center items-center w-full h-full py-12'>
+                    <img src={bureau} alt="bureau avec ordinateur dessus" className='w-auto h-555 lg:w-2/4 object-contains lg:my-0 lg:flex-start px-8 lg:pl-0 my-8 lg:mx-0 lg:border-r-2 pb-12 lg:pb-0 lg:pr-36 lg:rounded 'style={{borderRadius: "0% 100% 57% 43% / 98% 65% 35% 2%"}}/>
                 <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 md:pt-24 '>
                 <Progress percent={'80%'} color={'gold'} logo={js} skill="JAVASCRIPT" content="Variables, Types de valeurs, Opérateurs, Fonctions , Conditions ,
                     Boucle, Méthodes, Le regex, Sélecteurs javascript, Les événements en Javascript, 
@@ -88,8 +88,8 @@ function Skills() {
                     Collaborer efficacement grâce à Git et GitHub ,
                     Personnaliser l'usage de Git et GitHub en fonction de vos besoins."/>    
                 </div>
-                </div>
             </div>
+        </section>
     )
 }
 
