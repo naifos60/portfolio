@@ -4,7 +4,7 @@ import Card from '../Card/Card'
 import Modal from '../Modal/Modal'
 import {useState} from 'react'
 
-function Progress({percent, color, logo, skill, content}) {
+function Progress({percent, color, logo, skill, children}) {
   const [open, setOpen] = useState(false);
   const [hover, setHover] = useState(false);
 
@@ -24,7 +24,7 @@ function Progress({percent, color, logo, skill, content}) {
         </div>
       </div>
       {open &&
-      <Modal open={open} onClose={() => setOpen(false)} children={<Card logo={logo} title={skill} content={content}/>}/>}
+      <Modal open={open} onClose={() => setOpen(false)} children={<Card logo={logo} title={skill} content={children}/>}/>}
     </div>
     
 
@@ -36,7 +36,6 @@ Progress.propsTypes = {
   color: PropTypes.string.isRequired,
   logo: PropTypes.string.isRequired,
   skill: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
 }
 
 export default Progress
