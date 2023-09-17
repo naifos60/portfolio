@@ -3,7 +3,7 @@ function Form() {
         <div>
           <section className="text-gray-700 body-font relative  mx-auto  lg:mt-0 flex flex-col items-center  lg:h-full">  
             <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>CONTACT</h2>
-            <h3 className='  font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Et Dounia ce soir Jojo elle me suce  </h3>   
+            <h3 className='  font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>N'hésitez pas à me contacter</h3>   
             <form className="container px-5 py-24 mx-auto" action="mailto:masenkodrummer@hotmail.com">
               <div className="lg:w-1/2 md:w-2/3 mx-auto">
                 <div className="flex flex-wrap -m-2">
