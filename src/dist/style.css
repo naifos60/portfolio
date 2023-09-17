@@ -816,10 +816,6 @@ video {
   height: 11rem;
 }
 
-.h-444 {
-  height: 25rem;
-}
-
 .h-555 {
   height: 34rem;
 }
@@ -934,8 +930,8 @@ video {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-6 {
@@ -1032,7 +1028,7 @@ video {
 }
 
 .bg-form {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/test.png');
 }
 
 .bg-gradient-to-b {
