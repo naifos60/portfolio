@@ -22,10 +22,12 @@ module.exports = {
       backgroundImage: {
         "sof": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0)), url('../src/assets/images/background/sof1.jpg')",
         "describe": "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/9.jpg')",
-        "project": "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/3.jpg')"
+        "form": "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/3.jpg')"
       },
       spacing: {
-        "555": '34rem'
+        "555": '34rem',
+        "444": '25rem',
+        "350": '23rem',
       }
     }, 
   },

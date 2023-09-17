@@ -95,7 +95,7 @@ function Skills() {
                         <li>Utiliser des outils visuels de gestion de projet agile</li>
                     </ul>}
                 </Progress>
-                <Progress percent={'60%'} color={'#F09C38'} logo={jest} skill="TEST JEST">
+                <Progress percent={'60%'} color={'#F09C38'} logo={jest} skill="JEST">
                 {<ul className='text-center'>
                         <li>Développer avec les méthodes BDD et TDD</li><br/>
                         <li>Définir des specifications, suites, résultats attendus, etc...</li><br/>
