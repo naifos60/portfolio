@@ -894,6 +894,10 @@ video {
   max-height: 12rem;
 }
 
+.max-h-screen {
+  max-height: 100vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1241,6 +1245,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-12 {
@@ -1710,6 +1719,10 @@ video {
     height: 100%;
   }
 
+  .md\:max-h-full {
+    max-height: 100%;
+  }
+
   .md\:w-2\/3 {
     width: 66.666667%;
   }
@@ -1736,6 +1749,10 @@ video {
 
   .md\:justify-items-center {
     justify-items: center;
+  }
+
+  .md\:overflow-visible {
+    overflow: visible;
   }
 
   .md\:bg-contain {
@@ -1838,6 +1855,10 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:overflow-visible {
+    overflow: visible;
   }
 
   .lg\:rounded {
