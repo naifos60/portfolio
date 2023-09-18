@@ -857,6 +857,10 @@ video {
   max-height: 100vh;
 }
 
+.max-h-555 {
+  max-height: 34rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1575,6 +1579,10 @@ video {
     height: auto;
   }
 
+  .sm\:max-h-full {
+    max-height: 100%;
+  }
+
   .sm\:max-w-2xl {
     max-width: 42rem;
   }
@@ -1730,6 +1738,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-24 {
+    top: 6rem;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
+  }
+
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
