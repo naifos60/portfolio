@@ -16,9 +16,9 @@ function Project() {
             <div className="flex md:flex-row flex-wrap mx-auto md:mt-12 py-6 px-4  gap-12 justify-center">
                 <ProjectCard img={cardBookie} title="Bookie" url={'https://naifos60.github.io/bookie/index.html'}/>
                 <ProjectCard img={cardOhMyFood} title="Oh My Food" url={'https://naifos60.github.io/OH-MY-FOOD-P4/'}/>
-                <ProjectCard img={cardSophie} title="Sophie Bluel"/>   
-                <ProjectCard img={cardArgent} title="Bank-tree"/>
-                <ProjectCard img={cardKasa} title="Kasa"/> 
+                <ProjectCard img={cardSophie} title="Sophie Bluel" url={'https://github.com/naifos60/Portfolio-architecte-sophie-bluel.git'}/>   
+                <ProjectCard img={cardArgent} title="Bank-tree" url={'https://github.com/naifos60/argent-bank-projet11.git'}/>
+                <ProjectCard img={cardKasa} title="Kasa" url={'https://github.com/naifos60/kasa-P8.git'}/> 
                 <ProjectCard img={cardNina} title="Nina Carducci photo" url={'https://naifos60.github.io/ninacarducci.github.io-main/'}/>            
             </div>
         </section>
