@@ -724,6 +724,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .-mt-8 {
   margin-top: -2rem;
 }
@@ -1195,8 +1205,16 @@ video {
   padding-top: 1rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-lora {
@@ -1728,6 +1746,11 @@ video {
     margin-bottom: 0px;
   }
 
+  .lg\:my-28 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1816,6 +1839,10 @@ video {
 
   .lg\:pr-36 {
     padding-right: 9rem;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
   .lg\:text-left {

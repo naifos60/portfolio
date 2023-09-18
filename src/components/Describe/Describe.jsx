@@ -2,7 +2,7 @@ import logoRs from '../../assets/images/logo/logoRs.png';
 
 function Describe() {
     return(
-        <div id="description" className="w-full my-28 h-auto mx-auto px-10 py-10 md:px-40 lg:p-20 lg:mt-0 flex flex-col items-center bg-describe bg-cover  relative   rounded-lg ">
+        <div id="description" className="w-full mt-16 mb-8 lg:my-28 h-auto mx-auto px-10 py-10 md:px-40 lg:p-20 lg:mt-0 flex flex-col items-center bg-describe bg-cover  relative   rounded-lg ">
             <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-5xl  md:text-9xl text-gray-400 text-center absolute  opacity-20 md:top-12'>QUI SUIS-JE ?</h2>
                 <h3 className=' font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Présentation</h3>
                 <div className='flex flex-col  items-center justify-center gap-6 lg:mx-30  h-contain my-4  shadow-lg shadow-white overflow-hidden max-h-screen rounded-xl'>
