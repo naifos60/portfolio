@@ -15,7 +15,7 @@ function Hero() {
               <Typed strings={[
                 "développeur web frontend Javascript",
               "développeur web frontend Typescript",
-              "développeur web frontend React",
+              "développeur web frontend React.js",
               "développeur web frontend ..."
             ]}
                 typeSpeed={60}
