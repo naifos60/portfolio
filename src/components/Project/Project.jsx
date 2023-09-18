@@ -4,6 +4,7 @@ import cardOhMyFood from "../../assets/images/project/cardOhMyFood.png"
 import cardSophie from "../../assets/images/project/cardSophie.png"
 import cardKasa from "../../assets/images/project/cardKasa.png"
 import cardArgent from "../../assets/images/project/cardArgent.png"
+import cardNina from "../../assets/images/project/cardNina.png"
 
 
 
@@ -15,9 +16,10 @@ function Project() {
             <div className="flex md:flex-row flex-wrap mx-auto md:mt-12 py-6 px-4  gap-12 justify-center">
                 <ProjectCard img={cardBookie} title="Bookie" url={'https://naifos60.github.io/bookie/index.html'}/>
                 <ProjectCard img={cardOhMyFood} title="Oh My Food" url={'https://naifos60.github.io/OH-MY-FOOD-P4/'}/>
-                <ProjectCard img={cardKasa} title="Kasa"/>
+                <ProjectCard img={cardSophie} title="Sophie Bluel"/>   
                 <ProjectCard img={cardArgent} title="Bank-tree"/>
-                <ProjectCard img={cardSophie} title="Sophie Bluel"/>
+                <ProjectCard img={cardKasa} title="Kasa"/> 
+                <ProjectCard img={cardNina} title="Nina Carducci photo" url={'https://naifos60.github.io/ninacarducci.github.io-main/'}/>            
             </div>
         </section>
     )

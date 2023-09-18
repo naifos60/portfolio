@@ -18,7 +18,7 @@ function Skills() {
             <div className='flex flex-col lg:flex-row justify-center items-center w-full h-full py-12'>
                     <img src={bureau} alt="bureau avec ordinateur dessus" className='w-auto h-555 lg:w-2/4 object-contains lg:my-0 lg:flex-start px-8 lg:pl-0 my-8 lg:mx-0 lg:border-r-2 pb-12 lg:pb-0 lg:pr-36 lg:rounded 'style={{borderRadius: "0% 100% 57% 43% / 98% 65% 35% 2%"}}/>
                 <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 md:pt-24 '>
-                <Progress percent={'80%'} color={'gold'} logo={js} skill="JAVASCRIPT">
+                <Progress percent={'80%'} color={'#C7335C'} logo={js} skill="JAVASCRIPT">
                     {<ul className='text-center'>
                         <li>Variables, Types de valeurs, Opérateurs, Fonctions , Conditions , Boucle, Méthodes, Le regex, Sélecteurs javascript, Les événements en Javascript</li><br/>
                         <li>Styliser le DOM, Faire du javascript asynchrone, Créer et utiliser des promesses, Utiliser des API</li><br/>
@@ -107,7 +107,7 @@ function Skills() {
                         <li>Déboguer une application</li>
                     </ul>}
                 </Progress>
-                <Progress percent={'75%'} color={'#C7335C'} logo={git} skill="GIT&GITHUB">
+                <Progress percent={'75%'} color={'gold'} logo={git} skill="GIT&GITHUB">
                 {<ul className='text-center'>
                         <li>Installer et configurer Git et GitHub</li><br/>
                         <li>Utiliser les commandes de base de Git</li><br/>

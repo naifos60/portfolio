@@ -38,7 +38,7 @@ function Form() {
                       />
                     </div>
                   </div>
-                  <div className="p-2 w-full">
+                  {/* <div className="p-2 w-full">
                     <div className="relative">
                       <label
                         htmlFor="message"
@@ -52,7 +52,7 @@ function Form() {
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       ></textarea>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="p-2 w-full mx-auto">
                     <button className="flex mx-auto mb-2 lg:-text-center  rounded bg-gradient-to-r from-[hsl(218,81%,75%)] px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-[hsl(218,81%,95%)] hover:text-neutral-800 shadow-[0_4px_9px_-4px_#cbcbcb] transition duration-150 ease-in-out hover:bg-[hsl(218,81%,95%)] hover:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:bg-neutral-100 focus:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)] dark:hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]  md:mb-0 cursor-pointer" type="submit">
                       envoyer un email
