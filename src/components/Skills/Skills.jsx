@@ -44,7 +44,7 @@ function Skills() {
                 <Progress percent={'80%'} color={'royalblue'} logo={ts} skill="TYPESCRIPT">
                 {<ul className='text-center'>
                         <li>Manipuler la syntaxe de TypeScript</li><br/>
-                        <li>Créer vos propres types de variables</li><br/>
+                        <li>Créer mes propres types de variables</li><br/>
                         <li>Utiliser un projet JavaScript dans un projet TypeScript</li><br/>
                         <li>Les types de base</li><br/>
                         <li>Les tableaux et les objets</li><br/>
@@ -53,13 +53,13 @@ function Skills() {
                         <li>Les opérateurs, Overloads, Generics</li><br/>
                         <li>Les classes de base,  Les champs et le raccourci, Interfaces et classes</li>
                     </ul>}</Progress>
-                <Progress percent={'85%'} color={'#4DA59C'} logo={react} skill="REACT">
+                <Progress percent={'85%'} color={'#4DA59C'} logo={react} skill="REACT.JS">
                     {<ul className='text-center'>
-                        <li>Développer une interface web avec Sass</li><br/>
-                        <li>Mettre en œuvre des animations CSS</li><br/>
                         <li>Initialiser une application avec Create React App</li><br/>
-                        <li>Configurer la navigation entre les pages de l'application avec React Router</li><br/>
-                        <li>Développer des éléments de l'interface d'un site web grâce à des composants React</li><br/>
+                        <li>Configurer la navigation entre les pages de votre application avec React Router</li><br/>
+                        <li>Mettre en place, configurer et utiliser les nombreuses librairies que propose React.js</li><br/>
+                        <li>Utiliser le contexte, les hook, les props de React.js</li><br/>
+                        <li>Développer des éléments de l'interface de votre site web grâce à des composants React</li><br/>
                         <li>Afficher les données du back end sur l'interface via des appels API,</li><br/>
                         <li>Configurer des routes API pour la communication client / serveur</li><br/>
                         <li>Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front</li>
@@ -68,19 +68,16 @@ function Skills() {
                 <Progress percent={'90%'} color={'#42914D'} logo={seo} skill="SEO">
                     {<ul className='text-center'>
                         <li>Intégrer le référencement Web dans la stratégie marketing d'une organisation</li><br/>
-                        <li>Décrire le fonctionnement des moteurs de recherche</li><br/>
                         <li>Trouver et analyser les bons mots clés pour votre site</li><br/>
                         <li>Optimiser votre site en respectant les bonnes pratiques SEO on-page</li><br/>
-                        <li>Accélérer votre progression grâce au SEO off-page</li><br/>
-                        <li>Mesurer l'impact de vos efforts SEO</li><br/>
-                        <li>Diagnostiquer la crawlabilité de votre site</li><br/>
+                        <li>Vous permettre de mesurer l'impact de vos efforts SEO</li><br/>
+                        <li>Diagnostiquer la capacité de votre site à être parcourues par le robot.(crawlabilité du site)</li><br/>
                         <li>Corriger des erreurs techniques sur votre site afin d'améliorer sa crawlabilité</li><br/>
-                        <li>Augmenter la vitesse d'un site</li><br/>
+                        <li>Augmenter la vitesse de votre site</li><br/>
                         <li>Optimiser le SEO d'un site construit avec un framework JavaScript</li><br/>
                         <li>Optimiser le SEO d'un site multilingue</li><br/>
-                        <li>Comprendre ce qu'est l'inclusion numérique</li><br/>
-                        <li>Évaluer les obstacles à l'accessibilité sur le Web</li><br/>
-                        <li>Concevoir des contenus web accessibles</li>
+                        <li>Évaluer les obstacles à l'accessibilité sur le Web de votre site</li><br/>
+                        <li>Concevoir des contenus web accessibles pour votre site</li>
                     </ul>}
                 </Progress>
                 <Progress percent={'80%'} color={'#98C454'} logo={agile} skill="AGILE">
@@ -90,17 +87,22 @@ function Skills() {
                         <li>Découper une fonctionnalités en tâches pour préparer le développement</li><br/>
                         <li>Mettre en place une méthode de veille technologique</li><br/>
                         <li>Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels</li><br/>
-                        <li>Constituer une équipe agile avec le modèle de Tuckman</li><br/>
-                        <li>Intégrer les besoins d'utilisateurs</li><br/>
-                        <li>Utiliser des outils visuels de gestion de projet agile</li>
+                        <li>Bonne communication et facilité de colaboration</li><br/>
+                        <li>Ésprit d'équipe et de partage</li><br/>
+                        <li>Excelente adaptabilité</li><br/>
+                        <li>Focus sur les valeurs client</li><br/>
+                        <li>Collecte des besoins clientèles</li><br/>
+                        <li>Rédaction des userstories</li><br/>
+                        <li>À l'aise avec cérémonies SCRUM (sprint meeting planning, daily Scrum, sprint review, sprint retrospective...)</li>
+
                     </ul>}
                 </Progress>
                 <Progress percent={'60%'} color={'#F09C38'} logo={jest} skill="JEST">
                 {<ul className='text-center'>
                         <li>Développer avec les méthodes BDD et TDD</li><br/>
                         <li>Définir des specifications, suites, résultats attendus, etc...</li><br/>
-                        <li>Écrire des tests géniaux pour maintenir votre code</li><br/>
-                        <li>Identifier le type de bug</li><br/>
+                        <li>Élaborer des tests unitaires</li><br/>
+                        <li>Identifier les différents problèmes</li><br/>
                         <li>Déboguer du HTML et CSS </li><br/>
                         <li>Déboguer des bugs sur le DOM</li><br/>
                         <li>Déboguer des bugs sur l’API</li><br/>
@@ -113,7 +115,7 @@ function Skills() {
                         <li>Utiliser les commandes de base de Git</li><br/>
                         <li>Corriger les erreurs courantes sur GitHub</li><br/>
                         <li>Collaborer efficacement grâce à Git et GitHub</li><br/>
-                        <li>Personnaliser l'usage de Git et GitHub en fonction de vos besoins</li>
+                        <li>Personnaliser l'usage de Git et GitHub en fonction de mes besoins</li>
                     </ul>}
                 </Progress>   
                 </div>
