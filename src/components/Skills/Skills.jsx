@@ -18,42 +18,7 @@ function Skills() {
             <div className='flex flex-col lg:flex-row justify-center items-center w-full h-full'>
                     <img src={bureau} alt="bureau avec ordinateur dessus" className='hidden lg:flex w-auto h-auto lg:h-555 lg:w-2/4 object-contains lg:my-0 lg:flex-start px-8 lg:pl-0 my-8 lg:mx-0 lg:border-r-2 pb-12 lg:pb-0 lg:pr-36 lg:rounded 'style={{borderRadius: "0% 100% 57% 43% / 98% 65% 35% 2%"}}/>
                 <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 lg:pt-24 '>
-                <Progress percent={'80%'} color={'#C7335C'} logo={js} skill="JAVASCRIPT">
-                    {<ul className='text-center'>
-                        <li>Variables, Types de valeurs, Opérateurs, Fonctions , Conditions , Boucle, Méthodes, Le regex, Sélecteurs javascript, Les événements en Javascript</li><br/>
-                        <li>Styliser le DOM, Faire du javascript asynchrone, Créer et utiliser des promesses, Utiliser des API</li><br/>
-                        <li>Utiliser le Spread operator, Utiliser le Rest operator, Utiliser les fonctions pures, Utiliser les fonctions d'ordres supérieurs</li><br/>
-                        <li>Utiliser des fonctions comme expression, Créer utiliser des classes, Créer utiliser des sous-classes</li><br/>
-                        <li>Utiliser les constructors natif, Créer des méthodes, Faire des chaînes de méthodes.</li>
-                    </ul>}
-                </Progress>
-                <Progress percent={'90%'} color={'#5E308B'} logo={htmlLogo} skill="HTML&CSS">
-                    {<ul className='text-center'>
-                        <li>Installer un environnement de développement front-end</li><br/>
-                        <li>Agencer le contenu des pages</li><br/>
-                        <li>Utiliser des fonctionnalités avancées de HTML et CSS</li><br/>
-                        <li>Intégrer du contenu conformément à une maquette</li><br/>
-                        <li>Implémenter une interface responsive</li><br/>
-                        <li>Intégrer une maquette en mobile-first</li><br/>
-                        <li>Versionner son projet avec Git et Github</li><br/>
-                        <li>Mettre en œuvre des animations CSS</li><br/>
-                        <li>Maîtrise de tailwind</li><br/>
-                        <li>Maîtrise de Sass</li><br/>
-                        <li>Maîtrise des modules CSS3</li>
-                    </ul>}</Progress>
-                <Progress percent={'80%'} color={'royalblue'} logo={ts} skill="TYPESCRIPT">
-                {<ul className='text-center'>
-                        <li>Manipuler la syntaxe de TypeScript</li><br/>
-                        <li>Créer mes propres types de variables</li><br/>
-                        <li>Utiliser un projet JavaScript dans un projet TypeScript</li><br/>
-                        <li>Les types de base</li><br/>
-                        <li>Les tableaux et les objets</li><br/>
-                        <li>Les fonctions, Unions et types, Tuple et Enum</li><br/>
-                        <li>Les Interfaces, Le DOM, TSConfiguration</li><br/>
-                        <li>Les opérateurs, Overloads, Generics</li><br/>
-                        <li>Les classes de base,  Les champs et le raccourci, Interfaces et classes</li>
-                    </ul>}</Progress>
-                <Progress percent={'85%'} color={'#4DA59C'} logo={react} skill="REACT.JS">
+                <Progress percent={'85%'} color={'#C7335C'} logo={react} skill="REACT.JS">
                     {<ul className='text-center'>
                         <li>Initialiser une application avec Create React App</li><br/>
                         <li>Configurer la navigation entre les pages de votre application avec React Router</li><br/>
@@ -65,6 +30,43 @@ function Skills() {
                         <li>Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front</li>
                     </ul>}
                 </Progress>
+                <Progress percent={'80%'} color={'#5E308B'} logo={js} skill="JAVASCRIPT">
+                    {<ul className='text-center'>
+                        <li>Variables, Types de valeurs, Opérateurs, Fonctions , Conditions , Boucle, Méthodes, Le regex, Sélecteurs javascript, Les événements en Javascript</li><br/>
+                        <li>Styliser le DOM, Faire du javascript asynchrone, Créer et utiliser des promesses, Utiliser des API</li><br/>
+                        <li>Utiliser le Spread operator, Utiliser le Rest operator, Utiliser les fonctions pures, Utiliser les fonctions d'ordres supérieurs</li><br/>
+                        <li>Utiliser des fonctions comme expression, Créer utiliser des classes, Créer utiliser des sous-classes</li><br/>
+                        <li>Utiliser les constructors natif, Créer des méthodes, Faire des chaînes de méthodes.</li>
+                    </ul>}
+                </Progress>
+                <Progress percent={'80%'} color={'royalblue'} logo={ts} skill="TYPESCRIPT">
+                {<ul className='text-center'>
+                        <li>Manipuler la syntaxe de TypeScript</li><br/>
+                        <li>Créer mes propres types de variables</li><br/>
+                        <li>Utiliser un projet JavaScript dans un projet TypeScript</li><br/>
+                        <li>Les types de base</li><br/>
+                        <li>Les tableaux et les objets</li><br/>
+                        <li>Les fonctions, Unions et types, Tuple et Enum</li><br/>
+                        <li>Les Interfaces, Le DOM, TSConfiguration</li><br/>
+                        <li>Les opérateurs, Overloads, Generics</li><br/>
+                        <li>Les classes de base,  Les champs et le raccourci, Interfaces et classes</li>
+                    </ul>}
+                </Progress>
+                <Progress percent={'90%'} color={'#4DA59C'} logo={htmlLogo} skill="HTML&CSS">
+                    {<ul className='text-center'>
+                        <li>Installer un environnement de développement front-end</li><br/>
+                        <li>Agencer le contenu des pages</li><br/>
+                        <li>Utiliser des fonctionnalités avancées de HTML et CSS</li><br/>
+                        <li>Intégrer du contenu conformément à une maquette</li><br/>
+                        <li>Implémenter une interface responsive</li><br/>
+                        <li>Intégrer une maquette en mobile-first</li><br/>
+                        <li>Mettre en œuvre des animations CSS</li><br/>
+                        <li>Maîtrise de tailwind</li><br/>
+                        <li>Maîtrise de Sass</li><br/>
+                        <li>Maîtrise des modules CSS3</li>
+                    </ul>}
+                </Progress>
+
                 <Progress percent={'90%'} color={'#42914D'} logo={seo} skill="SEO">
                     {<ul className='text-center'>
                         <li>Intégrer le référencement Web dans la stratégie marketing d'une organisation</li><br/>
@@ -115,6 +117,7 @@ function Skills() {
                         <li>Utiliser les commandes de base de Git</li><br/>
                         <li>Corriger les erreurs courantes sur GitHub</li><br/>
                         <li>Collaborer efficacement grâce à Git et GitHub</li><br/>
+                        <li>Versionner un projet avec Git et Github</li><br/>
                         <li>Personnaliser l'usage de Git et GitHub en fonction de mes besoins</li>
                     </ul>}
                 </Progress>   
