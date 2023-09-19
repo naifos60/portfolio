@@ -18,7 +18,7 @@ function Project() {
                 <ProjectCard img={cardOhMyFood} title="Oh My Food" url={'https://oh-my-food-p4.vercel.app/'}/>
                 <ProjectCard img={cardSophie} title="Sophie Bluel" url={'https://github.com/naifos60/Portfolio-architecte-sophie-bluel.git'}/>   
                 <ProjectCard img={cardArgent} title="Bank-tree" url={'https://github.com/naifos60/argent-bank-projet11.git'}/>
-                <ProjectCard img={cardKasa} title="Kasa" url={'https://github.com/naifos60/kasa-P8.git'}/> 
+                <ProjectCard img={cardKasa} title="Kasa" url={'https://kasa-p8.vercel.app/'}/> 
                 <ProjectCard img={cardNina} title="Nina Carducci photo" url={'https://naifos60.github.io/ninacarducci.github.io-main/'}/>            
             </div>
         </section>
