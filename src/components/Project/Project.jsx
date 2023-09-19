@@ -1,10 +1,10 @@
 import ProjectCard from "../ProjectCard/ProjectCard"
-import cardBookie from "../../assets/images/project/cardBookie.png"
-import cardOhMyFood from "../../assets/images/project/cardOhMyFood.png"
-import cardSophie from "../../assets/images/project/cardSophie.png"
-import cardKasa from "../../assets/images/project/cardKasa.png"
-import cardArgent from "../../assets/images/project/cardArgent.png"
-import cardNina from "../../assets/images/project/cardNina.png"
+import cardBookie from "../../assets/images/project/cardBookie.webp"
+import cardOhMyFood from "../../assets/images/project/cardOhMyFood.webp"
+import cardSophie from "../../assets/images/project/cardSophie.webp"
+import cardKasa from "../../assets/images/project/cardKasa.webp"
+import cardArgent from "../../assets/images/project/cardArgent.webp"
+import cardNina from "../../assets/images/project/cardNina.webp"
 
 
 

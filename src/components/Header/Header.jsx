@@ -1,6 +1,6 @@
 import menu from "../../assets/images/menu.svg";
 import cross from "../../assets/images/cross.svg";
-import logoRs from '../../assets/images/logo/logoRs.png';
+import logoRs from '../../assets/images/logo/logoRs.webp';
 import { useState } from "react";
 
 function Header(){

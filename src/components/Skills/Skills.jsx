@@ -1,13 +1,13 @@
 import Progress from '../../components/Progress/Progress';
-import htmlLogo from '../../assets/images/logo/htmlcss.png';
-import js from '../../assets/images/logo/js.png';
-import react from '../../assets/images/logo/react.png';
-import git from '../../assets/images/logo/GitHublogo.png';
-import jest from '../../assets/images/logo/jest2.png';
-import seo from '../../assets/images/logo/seo.png';
-import agile from '../../assets/images/logo/agile.png';
-import ts from '../../assets/images/logo/typescript.png';
-import bureau from '../../assets/images/background/5.png';
+import htmlLogo from '../../assets/images/logo/htmlcss.webp';
+import js from '../../assets/images/logo/js.webp';
+import react from '../../assets/images/logo/react.webp';
+import git from '../../assets/images/logo/GitHublogo.webp';
+import jest from '../../assets/images/logo/jest2.webp';
+import seo from '../../assets/images/logo/seo.webp';
+import agile from '../../assets/images/logo/agile.webp';
+import ts from '../../assets/images/logo/typescript.webp';
+import bureau from '../../assets/images/background/5.webp';
 
 
 function Skills() {
