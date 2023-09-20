@@ -8,7 +8,7 @@ const data = datas
 
 function Skills() {
     return(
-        <section id='competences' className='mx-auto   flex flex-col items-center relative lg:h-full'>
+        <section id='competences' className='mx-auto   flex flex-col items-center relative lg:h-full lg:mb-24'>
             <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>A PROPOS</h2>
             <h3 className='font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Mes compétences à votre service</h3>
             <div className='flex flex-col lg:flex-row justify-center items-center w-full h-full'>
