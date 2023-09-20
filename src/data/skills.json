@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "title": "REACT.JS",
+        "logo" : "./static/media/react.819a8fd7afa083c50cc3.webp",
+        "percent": "85%",
+        "color": "#C7335C",
+        "skill": [
+            "Initialiser une application avec Create React App",
+            "Configurer la navigation entre les pages de votre application avec React Router",
+            "Mettre en place, configurer et utiliser les nombreuses librairies que propose React.js",
+            "Utiliser le contexte, les hook, les props de React.js",
+            "Développer des éléments de l'interface de votre site web grâce à des composants React",
+            "Afficher les données du back end sur l'interface via des appels API",
+            "Configurer des routes API pour la communication client / serveur",
+            "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "JAVASCRIPT",
+        "logo" : "./static/media/js.6e3aeef936c05b805ef4.webp",
+        "percent": "80%",
+        "color": "#5E308B",
+        "skill": [
+            "Variables, Types de valeurs, Opérateurs, Fonctions , Conditions , Boucle, Méthodes, Le regex, Sélecteurs javascript, Les événements en Javascript",
+            "Styliser le DOM, Faire du javascript asynchrone, Créer et utiliser des promesses, Utiliser des API",
+            "Utiliser le Spread operator, Utiliser le Rest operator, Utiliser les fonctions pures, Utiliser les fonctions d'ordres supérieurs",
+            "Utiliser des fonctions comme expression, Créer utiliser des classes, Créer utiliser des sous-classes",
+            "Utiliser les constructors natif, Créer des méthodes, Faire des chaînes de méthodes."
+        ]   
+    },
+    {
+        "id": "3",
+        "title": "TYPESCRIPT",
+        "logo" : "./static/media/typescript.c766ce60f8ab546df20e.webp",
+        "percent": "80%",
+        "color": "royalblue",
+        "skill": [
+            "Manipuler la syntaxe de TypeScript",
+            "Créer mes propres types de variables",
+            "Utiliser un projet JavaScript dans un projet TypeScript",
+            "Les types de base",
+            "Les tableaux et les objets",
+            "Les fonctions, Unions et types, Tuple et Enum",
+            "Les Interfaces, Le DOM, TSConfiguration",
+            "Les opérateurs, Overloads, Generics",
+            "Les classes de base,  Les champs et le raccourci, Interfaces et classes"
+        ]   
+    },
+    {
+        "id": "4",
+        "title": "HTML&CSS",
+        "logo" : "./static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+        "percent": "90%",
+        "color": "#4DA59C",
+        "skill": [
+            "Installer un environnement de développement front-end",
+            "Agencer le contenu des pages",
+            "Utiliser des fonctionnalités avancées de HTML et CSS",
+            "Intégrer du contenu conformément à une maquette",
+            "Implémenter une interface responsive",
+            "Intégrer une maquette en mobile-first",
+            "Mettre en œuvre des animations CSS",
+            "Maîtrise de tailwind",
+            "Maîtrise de Sass",
+            "Maîtrise des modules CSS3"
+        ]  
+    },
+    {
+        "id": "5",
+        "title": "SEO",
+        "logo" : "./static/media/seo.83f05ae32908b163b6a6.webp",
+        "percent": "90%",
+        "color": "#42914D",
+        "skill": [
+            "Intégrer le référencement Web dans la stratégie marketing d'une organisation",
+            "Trouver et analyser les bons mots clés pour votre site",
+            "Optimiser votre site en respectant les bonnes pratiques SEO on-page",
+            "Vous permettre de mesurer l'impact de vos efforts SEO",
+            "Diagnostiquer la capacité de votre site à être parcourues par le robot.(crawlabilité du site)",
+            "Corriger des erreurs techniques sur votre site afin d'améliorer sa crawlabilité",
+            "Augmenter la vitesse de votre site",
+            "Optimiser le SEO d'un site construit avec un framework JavaScript",
+            "Optimiser le SEO d'un site multilingue",
+            "Évaluer les obstacles à l'accessibilité sur le Web de votre site",
+            "Concevoir des contenus web accessibles pour votre site"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "AGILE",
+        "logo" : "./static/media/agile.7dc4b58b22418c22e6bc.webp",
+        "percent": "80%",
+        "color": "#98C454",
+        "skill": [
+            "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+            "Présenter la solution technique",
+            "Découper une fonctionnalités en tâches pour préparer le développement",
+            "Mettre en place une méthode de veille technologique",
+            "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+            "Bonne communication et facilité de colaboration",
+            "Ésprit d'équipe et de partage",
+            "Excelente adaptabilité",
+            "Focus sur les valeurs client",
+            "Collecte des besoins clientèles",
+            "Rédaction des userstories",
+            "À l'aise avec cérémonies SCRUM (sprint meeting planning, daily Scrum, sprint review, sprint retrospective...)"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "JEST",
+        "logo" : "./static/media/jest2.9df5900d2a880d09ece9.webp",
+        "percent": "60%",
+        "color": "#F09C38",
+        "skill": [
+            "Développer avec les méthodes BDD et TDD",
+            "Définir des specifications, suites, résultats attendus, etc...",
+            "Élaborer des tests unitaires",
+            "Identifier les différents problèmes",
+            "Déboguer du HTML et CSS",
+            "Déboguer des bugs sur le DOM",
+            "Déboguer des bugs sur l’API"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "GIT&GITHUB",
+        "logo" : "./static/media/GitHublogo.7f23a2e61c4c2089bb47.webp",
+        "percent": "75%",
+        "color": "gold",
+        "skill": [
+            "Installer et configurer Git et GitHub",
+            "Utiliser les commandes de base de Git",
+            "Corriger les erreurs courantes sur GitHub",
+            "Collaborer efficacement grâce à Git et GitHub",
+            "Versionner un projet avec Git et Github",
+            "Personnaliser l'usage de Git et GitHub en fonction de mes besoins"
+        ]
+    }
+]
