@@ -6,7 +6,7 @@ function Describe() {
             <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-5xl  lg:text-9xl text-gray-400 text-center absolute  opacity-20 lg:top-12'>QUI SUIS-JE ?</h2>
                 <h3 className=' font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Présentation</h3>
                 <div className='flex flex-col  items-center justify-center gap-6 lg:mx-30  h-contain my-12 lg:my-4    rounded-xl '>
-                    <article className=" flex flex-col  xl:flex-row font-serif italic px-6 py-12  bg-gradient-to-l from-[hsl(218,81%,75%)] bg-opacity-70 justify-between items-center w-auto max-h-350 md:max-h-screen xl:max-h-full overflow-scroll scroll-smooth">
+                    <article className=" flex flex-col  xl:flex-row font-serif italic px-6 py-12  bg-gradient-to-l from-[hsl(218,81%,75%)] bg-opacity-70 justify-between items-center w-auto max-h-350 md:max-h-screen xl:max-h-full overflow-scroll scroll-smooth scrollbar-hide">
                         <img src={logoRs} alt="logo dev" className='rounded-full w-56 h-56 mx-auto'/>
                         <div className="md:flex flex-col justify-center text-xl md:text-justify text-white ml-12 py-8"> 
                         <p>
