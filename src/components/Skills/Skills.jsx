@@ -1,12 +1,18 @@
-import Progress from '../../components/Progress/Progress';
-import bureau from '../../assets/images/background/5.webp';
+import Progress from '../../components/Progress/Progress'
+import bureau from '../../assets/images/background/5.webp'
 import datas from '../../data/skills.json'
-const data = datas
-
-
+import '../../assets/images/logo/react.webp'
+import '../../assets/images/logo/js.webp'
+import '../../assets/images/logo/agile.webp'
+import '../../assets/images/logo/htmlcss.webp'
+import '../../assets/images/logo/GitHublogo.webp'
+import '../../assets/images/logo/seo.webp'
+import '../../assets/images/logo/jest2.webp'
+import '../../assets/images/logo/typescript.webp'
 
 
 function Skills() {
+    const data = datas
     return(
         <section id='competences' className='mx-auto   flex flex-col items-center relative lg:h-full lg:mb-24'>
             <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>A PROPOS</h2>
