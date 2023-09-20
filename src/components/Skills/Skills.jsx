@@ -1,14 +1,14 @@
 import Progress from '../../components/Progress/Progress'
 import bureau from '../../assets/images/background/5.webp'
 import datas from '../../data/skills.json'
-import '../../assets/images/logo/react.webp'
-import '../../assets/images/logo/js.webp'
-import '../../assets/images/logo/agile.webp'
-import '../../assets/images/logo/htmlcss.webp'
-import '../../assets/images/logo/GitHublogo.webp'
-import '../../assets/images/logo/seo.webp'
-import '../../assets/images/logo/jest2.webp'
-import '../../assets/images/logo/typescript.webp'
+import react from '../../assets/images/logo/react.webp'
+import js from '../../assets/images/logo/js.webp'
+import agile from '../../assets/images/logo/agile.webp'
+import htmlcss from '../../assets/images/logo/htmlcss.webp'
+import gitHub from'../../assets/images/logo/GitHublogo.webp'
+import seo from'../../assets/images/logo/seo.webp'
+import jest from '../../assets/images/logo/jest2.webp'
+import typescript from '../../assets/images/logo/typescript.webp'
 
 
 function Skills() {
