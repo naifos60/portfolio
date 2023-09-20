@@ -8,7 +8,7 @@ function Describe() {
                 <div className='flex flex-col  items-center justify-center gap-6 lg:mx-30  h-contain my-12 lg:my-4    rounded-xl '>
                     <article className=" flex flex-col  xl:flex-row font-serif italic px-6 py-12  bg-gradient-to-l from-[hsl(218,81%,75%)] bg-opacity-70 justify-between items-center w-auto max-h-350 md:max-h-screen xl:max-h-full overflow-scroll scroll-smooth scrollbar-hide">
                         <img src={logoRs} alt="logo dev" className='rounded-full w-56 h-56 mx-auto'/>
-                        <div className="md:flex flex-col justify-center text-xl md:text-justify text-white ml-12 py-8"> 
+                        <div className="md:flex flex-col justify-center text-xl  text-white ml-12 py-8"> 
                         <p>
                             Après une carrière de 12 ans au sein des commandos de la force aérienne,
                             je me suis naturellement orienté vers un métier de la sécurité en signant comme convoyeur de fonds pour brink’s sécurité Luxembourg !
