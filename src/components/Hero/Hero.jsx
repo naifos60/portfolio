@@ -5,7 +5,7 @@ import ParticlesBackground from "../Particles/ParticlesBackgound"
 
 function Hero() {
     return(
-<div id="acceuil" className=" text-center w-screen h-full lg:text-left sm:h-auto md:h-555 md:mb-20 md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top lg:mt-48 md:bg-right  bg-sof2  md:bg-sof">
+<div id="acceuil" className=" text-center w-screen h-full lg:text-left sm:h-auto md:h-555 md:mb-20 md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top lg:mt-48 md:bg-right  bg-sof2  lg:bg-sof">
   <ParticlesBackground/>
     <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl flex xl:items-center">
       <div className="grid h-auto items-center lg:grid-cols-2 md:justify-items-center " >
@@ -13,9 +13,8 @@ function Hero() {
           <h1 className="mt-O mb-8 text-6xl font-bold tracking-tight xl:text-7xl text-[hsl(218,81%,95%)]">
             Bonjour, moi c'est Sofiane <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">
               <Typed strings={[
-                "développeur web frontend Javascript",
-              "développeur web frontend Typescript",
-              "développeur web frontend React.js"
+                "développeur web frontend React js",
+                "développeur web frontend React.js"
             ]}
                 typeSpeed={60}
                 backSpeed={45}
