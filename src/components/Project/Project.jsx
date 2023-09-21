@@ -10,6 +10,7 @@ import react from '../../assets/images/logo/react.webp'
 import js from '../../assets/images/logo/js.webp'
 import sass from '../../assets/images/logo/sass.webp'
 import redux from '../../assets/images/logo/redux.webp'
+import seo from '../../assets/images/logo/seo.png'
 import datas from '../../data/project.json';
 
 
