@@ -17,10 +17,10 @@ function ProjectCard({img, title,skills, url, url2, content}) {
                     <h2 className="mb-2 font-serif italic text-3xl top-0 absolute  text-[hsl(218,81%,95%)]">{title}</h2>
                 </div>
                 <div className="absolute flex flex-col justify-center inset-0 h-full w-full rounded-xl bg-gradient-to-t from-[hsl(218,81%,75%)]/80 px-12 text-center text-[hsl(218,81%,95%)] [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    <div className="flex flex-raw justify-center items-center my-4 w-full h-16 gap-4 absolute -bottom-6 left-0">
+                    <div className="flex flex-raw justify-center items-center my-4 w-full h-16 gap-4 absolute -bottom-6 left-0 ">
                         {skills.map((el) => (
-                            <div key={el.title} className='bg-gradient-to-t from-[hsl(218,81%,80%)] rounded-full mb-4 p-2'>
-                                <img  src={el.url} alt={"logo " + el.title} className='w-8 h-8'/> 
+                            <div key={el.title} className='bg-gradient-to-t from-[hsl(218,81%,80%)] rounded-full mb-4 p-2 hover:scale-150 hover:brightness-150 hover:shadow-lg hover:shadow-black'>
+                                <img  src={el.url} alt={"logo " + el.title} className='w-8 h-8 hover:scale-150'/> 
                             </div>
                             ))}
                     </div>
