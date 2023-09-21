@@ -59,7 +59,7 @@ function Header(){
         >
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="/"
+              href="#acceuil"
               className="text-sm uppercase font-semibold hover:text-rose-600 "
               onClick={toggleNav}
               >Accueil
