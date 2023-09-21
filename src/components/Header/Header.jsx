@@ -25,7 +25,7 @@ function Header(){
 
     return(
 <header>
-    <nav className="bg-white z-50 fixed top-0 w-full shadow-lg shadow-[hsl(218,81%,75%)]">
+    <nav className="bg-white z-50 fixed top-0 w-screen shadow-lg shadow-[hsl(218,81%,75%)]">
       <div
         id="main-nav"
         className="bg-white max-w-3xl mx-auto p-4 flex items-center justify-between flex-wrap  md:mx-0 md:max-w-full"
