@@ -1,0 +1,120 @@
+[
+    {
+        "id": "1",
+        "title": "Bookie",
+        "img": "/static/media/cardBookie.b80b5f731b5a7d02cf5b.webp",
+        "url": "https://bookie-naifos60.vercel.app/",
+        "url2": "https://github.com/naifos60/bookie.git",
+        "skills":[
+            {
+                "url": "/static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+                "title": "html et css"
+            }
+        ],
+        "content": "L’entreprise Bookie souhaitait développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site et le responsive avec du code HTML et CSS."
+    },
+    {
+        "id": "2",
+        "title": "Oh my food",
+        "img": "/static/media/cardOhMyFood.eb0da3f913d488601580.webp",
+        "url": "https://oh-my-food-p4.vercel.app/",
+        "url2": "https://github.com/naifos60/OH-MY-FOOD-P4.git",
+        "skills":[
+            {
+                "url": "/static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+                "title": "html et css"
+            },
+            {
+                "title": "Sass",
+                "url": "/static/media/sass.e25083d8a7ce9f717ddc.webp"
+            }
+        ],
+        "content": "L'entreprise oh my food souhaitait un site mobile first qui répertorie les menus de restaurants gastronomiques. Il fallait le développer pour mobile, tablette et desktop en s’appuyant rigoureusement sur les informations déterminées dans le brief créatif et inclure des animations soignées !"
+    },
+    {
+        "id": "3",
+        "title": "Nina Carducci photo",
+        "img": "/static/media/cardNina.eb7b9debd6f17f36e2c7.webp",
+        "url": "https://naifos60.github.io/ninacarducci.github.io-main/",
+        "url2": "https://github.com/naifos60/ninacarducci.github.io-main.git",
+        "skills":[   
+            {
+                "title":"html et css",
+                "url": "/static/media/htmlcss.a67f915e91c15bc4ff19.webp"
+            },
+            {
+                "title": "SEO",
+                "url": "/static/media/seo.e735cc50375cd86db765.png"
+            }
+        ],
+        "content": "La photographe Nina Carducci a demandée de faire une optimisation tant sur les performances que sur le SEO. Mettre en place le référencement local. Ajouter les metas pour les réseaux sociaux. Faire les modifications liées à l’accessibilité du site. Produire un rapport d’optimisation présentant toutes mes actions et leur impact."   
+    },
+    {
+        "id": "4",
+        "title": "Kasa",
+        "img": "/static/media/cardKasa.ab55ebb03378bbbbb1af.webp",
+        "url": "https://kasa-p8.vercel.app/",
+        "url2": "https://github.com/naifos60/kasa-P8.git",
+        "skills":[
+            {
+                "url": "/static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+                "title": "html et css"
+            },
+            {
+                "title": "Sass",
+                "url": "/static/media/sass.e25083d8a7ce9f717ddc.webp"
+            },
+            {
+                "title": "Javascript",
+                "url": "/static/media/js.6e3aeef936c05b805ef4.webp"
+            },
+            {
+                "title": "React",
+                "url": "/static/media/react.819a8fd7afa083c50cc3.webp"
+            }
+        ],
+        "content":"Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Nous avons donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end."        
+    },
+    {
+        "id": "5",
+        "title": "Sophie Bluel",
+        "img": "/static/media/cardSophie.d8d2f33c7ab9636b2328.webp",
+        "url2": "https://github.com/naifos60/Portfolio-architecte-sophie-bluel.git",
+        "skills":[
+            {
+                "url": "/static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+                "title": "html et css"
+            },
+            {
+                "title": "Javascript",
+                "url": "/static/media/js.6e3aeef936c05b805ef4.webp"
+            }
+        ],
+        "content":"Conception du site portfolio d’une architecte d’intérieur. Création de la page de présentation des travaux de l'architecte, la page de connexion de l'administrateur du site, la modale permettant d'uploader de nouveaux médias, ainsi que tout le lien avec le backend (appel API, gestion authentification, token, erreur)."
+    },
+    {
+        "id": "6",
+        "title": "Bank tree",
+        "img": "/static/media/cardArgent.5501639d295c9795b2b6.webp",
+        "url2": "https://github.com/naifos60/argent-bank-projet11.git",
+        "skills":[
+            {
+                "url": "/static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+                "title": "html et css"
+            },
+            {
+                "title": "Javascript",
+                "url": "/static/media/js.6e3aeef936c05b805ef4.webp"
+            },
+            {
+                "title": "React",
+                "url": "/static/media/react.819a8fd7afa083c50cc3.webp"
+            },
+            {
+                "title": "Redux",
+                "url": "/static/media/redux.9de4fd3da9e741fc1fd8.webp"
+            }
+        ],
+        "content":"Implémentez le front-end d'une application bancaire avec React. Créer l’application web complète et responsive avec React. Utiliser Redux pour gérer le state de l'ensemble de l'application. Préparer les routes API pour la partie transaction du site, rédaction du document YAML."
+    }
+]
