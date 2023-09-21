@@ -8,7 +8,7 @@ import Contact from '../../components/Contact/Contact';
 
 function Home() {
     return(
-        <main className='relative mt-16 w-auto h-auto' >    
+        <main className='relative mt-16 w-full h-full' >    
             <Hero/>
             <Describe/>
             <Skills/>
