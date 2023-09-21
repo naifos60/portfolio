@@ -5,7 +5,7 @@ import ParticlesBackground from "../Particles/ParticlesBackgound"
 
 function Hero() {
     return(
-<div id="acceuil" className=" text-center w-screen h-full lg:text-left sm:h-auto md:h-555 md:mb-20 md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top lg:mt-48 md:bg-right  bg-sof2  lg:bg-sof">
+<div id="acceuil" className=" text-center w-screen h-full lg:text-left sm:h-auto md:h-555  md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top lg:mt-48 md:bg-right  bg-sof2  lg:bg-sof">
   <ParticlesBackground/>
     <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl flex xl:items-center">
       <div className="grid h-auto items-center lg:grid-cols-2 md:justify-items-center " >

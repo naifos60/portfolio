@@ -20,8 +20,8 @@ module.exports = {
         260: '260px',
       },
       backgroundImage: {
-        "sof": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0)), url('../src/assets/images/background/sof1.webp')",
-        "sof2": "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0,0.6)), url('../src/assets/images/background/sof1.webp')",
+        "sof": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0)), url('../src/assets/images/background/sof2.webp')",
+        "sof2": "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0,0.6)), url('../src/assets/images/background/sof2.webp')",
         "describe": "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/9.webp')",
         "form": "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.4)), url('../src/assets/images/background/test.webp')"
       },
