@@ -22,9 +22,9 @@ function Skills() {
                 <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 lg:pt-24 '>
                     {data.map((el) => (
                         <Progress key={el.id} percent={el.percent} color={el.color} logo={el.logo} skill={el.title}>
-                         {<ul className='text-center'>
+                         {<ul className='text-left'>
                             {el.skill.map((e, index) => (
-                                <li className='my-4 text-sm md:text-base lg:text-lg' key={index}>{e}</li>
+                                <li className='my-4 text-xs list-decimal' key={index}>{e}</li>
                             ))}
                           </ul>}
                         </Progress>
