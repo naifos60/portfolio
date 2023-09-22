@@ -33,8 +33,8 @@ const particlesConfig = {
     detectsOn: "window",
     events: {
       onClick: {
-        enable: false,
-        mode: []
+        enable: true,
+        mode: "push"
       },
       onDiv: {
         selectors: [],
@@ -135,7 +135,7 @@ const particlesConfig = {
       push: {
         default: true,
         groups: [],
-        quantity: 4
+        quantity: 10
       },
       remove: {
         quantity: 2
@@ -412,7 +412,7 @@ const particlesConfig = {
     },
     destroy: {
       bounds: {},
-      mode: "split",
+      mode: "none",
       split: {
         count: 1,
         factor: {
