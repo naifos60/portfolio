@@ -13,7 +13,6 @@ function Hero() {
           <h1 className="mt-O mb-8 text-6xl font-bold tracking-tight xl:text-7xl text-[hsl(218,81%,95%)]">
             Bonjour, moi c'est Sofiane <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">
               <Typed strings={[
-                "développeur web frontend",
                 "développeur web frontend Javascript",
                 "développeur web frontend React.js"
             ]}
