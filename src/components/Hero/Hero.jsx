@@ -1,4 +1,4 @@
-import cv from "../../assets/document/CV-Sof.pdf"
+import cv from "../../assets/document/Sofiane Rhrara.pdf"
 import Typed from "react-typed"
 import ParticlesBackground from "../Particles/ParticlesBackgound"
 
