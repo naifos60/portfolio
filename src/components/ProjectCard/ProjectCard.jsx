@@ -14,7 +14,7 @@ function ProjectCard({img, title,skills, url, url2, content}) {
             <div className="relative h-full w-full rounded-xl shadow-xl duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 <div className="absolute inset-0 flex flex-raw justify-center [backface-visibility:hidden]">
                     <img src={img} alt={'logo' + title} className="px-4 py-2 -mt-8 mx-auto w-350 h-full object-cover [backface-visibility:hidden] "/>
-                    <h2 className="mb-2 font-serif italic text-3xl top-0 absolute  text-[hsl(218,81%,95%)] group-hover:[transform:rotateY(180deg)]">{title}</h2>
+                    <h2 className="mb-2 font-serif italic text-3xl top-0 absolute  text-[hsl(218,81%,95%)]">{title}</h2>
                 </div>
                 <div className="absolute flex flex-col justify-center inset-0 h-full w-full rounded-xl bg-gradient-to-t from-[hsl(218,81%,75%)]/80 px-12 text-center text-[hsl(218,81%,95%)] [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div className="flex flex-raw justify-center items-center my-4 w-full h-16 gap-4 absolute -bottom-6 left-0 ">
@@ -25,7 +25,7 @@ function ProjectCard({img, title,skills, url, url2, content}) {
                             ))}
                     </div>
                     <div>
-                        <article className='text-sm mb-12 mt-8'>
+                        <article className='text-sm mb-12'>
                             <p>{content}</p><br/>
                             {url !== undefined ?
                             <div>
