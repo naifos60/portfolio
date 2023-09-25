@@ -3,6 +3,7 @@ import Typed from "react-typed"
 import ParticlesBackground from "../Particles/ParticlesBackgound"
 
 
+
 function Hero() {
     return(
 <div id="acceuil" className=" text-center h-full lg:text-left sm:h-auto md:h-555  md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top  md:bg-right  bg-sof2  lg:bg-sof lg:mt-48">

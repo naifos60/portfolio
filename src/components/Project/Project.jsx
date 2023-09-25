@@ -1,16 +1,4 @@
 import ProjectCard from "../ProjectCard/ProjectCard"
-import cardBookie from "../../assets/images/project/cardBookie.webp"
-import cardOhMyFood from "../../assets/images/project/cardOhMyFood.webp"
-import cardSophie from "../../assets/images/project/cardSophie.webp"
-import cardKasa from "../../assets/images/project/cardKasa.webp"
-import cardArgent from "../../assets/images/project/cardArgent.webp"
-import cardNina from "../../assets/images/project/cardNina.webp"
-import htmlcss from '../../assets/images/logo/htmlcss.webp'
-import react from '../../assets/images/logo/react.webp'
-import js from '../../assets/images/logo/js.webp'
-import sass from '../../assets/images/logo/sass.webp'
-import redux from '../../assets/images/logo/redux.webp'
-import seo from '../../assets/images/logo/seo.png'
 import datas from '../../data/project.json';
 
 
