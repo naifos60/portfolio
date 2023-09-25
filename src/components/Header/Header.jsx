@@ -59,7 +59,7 @@ function Header(){
         >
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="#acceuil"
+              href="/#acceuil"
               className="text-sm uppercase font-semibold hover:text-rose-600 "
               onClick={toggleNav}
               >Accueil
@@ -67,7 +67,7 @@ function Header(){
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="#description"
+              href="/#description"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Présentation
@@ -82,7 +82,7 @@ function Header(){
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="#projets"
+              href="/#projets"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Projets
@@ -90,7 +90,7 @@ function Header(){
           </li>
           <li className="block py-3 md:inline md:py-0">
             <a
-              href="#contact"
+              href="/#contact"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Contact
