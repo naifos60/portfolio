@@ -1,11 +1,5 @@
 import {Link} from 'react-router-dom';
 import PropTypes  from "prop-types";
-import htmlcss from '../../assets/images/logo/htmlcss.webp'
-import react from '../../assets/images/logo/react.webp'
-import js from '../../assets/images/logo/js.webp'
-import sass from '../../assets/images/logo/sass.webp'
-
-
 
 function ProjectCard({img, title,skills, url, url2, content}) {
     return(

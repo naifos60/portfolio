@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "REACT.JS",
-        "logo" : "/static/media/react.819a8fd7afa083c50cc3.webp",
+        "logo" : "./assets/images/react.webp",
         "percent": "85%",
         "color": "#C7335C",
         "skill": [
@@ -19,7 +19,7 @@
     {
         "id": "2",
         "title": "JAVASCRIPT",
-        "logo" : "/static/media/js.6e3aeef936c05b805ef4.webp",
+        "logo" : "./assets/images/js.webp",
         "percent": "80%",
         "color": "#5E308B",
         "skill": [
@@ -33,7 +33,7 @@
     {
         "id": "3",
         "title": "TYPESCRIPT",
-        "logo" : "/static/media/typescript.c766ce60f8ab546df20e.webp",
+        "logo" : "./assets/images/typescript.webp",
         "percent": "80%",
         "color": "royalblue",
         "skill": [
@@ -51,7 +51,7 @@
     {
         "id": "4",
         "title": "HTML&CSS",
-        "logo" : "/static/media/htmlcss.a67f915e91c15bc4ff19.webp",
+        "logo" : "./assets/images/htmlcss.webp",
         "percent": "90%",
         "color": "#4DA59C",
         "skill": [
@@ -70,7 +70,7 @@
     {
         "id": "5",
         "title": "SEO",
-        "logo" : "/static/media/seo.83f05ae32908b163b6a6.webp",
+        "logo" : "./assets/images/seo.webp",
         "percent": "90%",
         "color": "#42914D",
         "skill": [
@@ -90,7 +90,7 @@
     {
         "id": "6",
         "title": "AGILE",
-        "logo" : "/static/media/agile.7dc4b58b22418c22e6bc.webp",
+        "logo" : "./assets/images/agile.webp",
         "percent": "80%",
         "color": "#98C454",
         "skill": [
@@ -111,7 +111,7 @@
     {
         "id": "7",
         "title": "JEST",
-        "logo" : "/static/media/jest2.9df5900d2a880d09ece9.webp",
+        "logo" : "./assets/images/jest2.webp",
         "percent": "60%",
         "color": "#F09C38",
         "skill": [
@@ -127,7 +127,7 @@
     {
         "id": "8",
         "title": "GIT&GITHUB",
-        "logo" : "/static/media/GitHublogo.7f23a2e61c4c2089bb47.webp",
+        "logo" : "./assets/images/GitHublogo.webp",
         "percent": "75%",
         "color": "gold",
         "skill": [

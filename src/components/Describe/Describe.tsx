@@ -1,4 +1,4 @@
-const logoRs = ("/static/media/logoRs.6e005664f9c42a99614c.webp") as string;
+const logoRs = ("./assets/images/logoRs.webp") as string;
 
 function Describe() {
     return(

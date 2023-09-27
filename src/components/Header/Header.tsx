@@ -1,7 +1,8 @@
 import { useState } from "react";
-const logoRs = ("/static/media/logoRs.6e005664f9c42a99614c.webp") as string;
-const menu = ("/static/media/menu.5d95aebcefbc55b1c7f14cf7e4b754d9.svg") as string;
-const cross = ("/static/media/cross.8c1c76669f1ebb31d8c1eb4801e96eb5.svg") as string;
+
+const logoRs = ("./assets/images/logoRs.webp") as string;
+const menu = ("./assets/images/menu.svg") as string;
+const cross = ("./assets/images/cross.svg") as string;
 
 
 
@@ -61,7 +62,7 @@ function Header(){
         >
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="#acceuil"
+              href="/#acceuil"
               className="text-sm uppercase font-semibold hover:text-rose-600 "
               onClick={toggleNav}
               >Accueil
@@ -69,14 +70,14 @@ function Header(){
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="#description"
+              href="/#description"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Présentation
             </a>
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
-            <a href="#competences"
+            <a href="/#competences"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Compétences
@@ -84,7 +85,7 @@ function Header(){
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
             <a
-              href="#projets"
+              href="/#projets"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Projets
@@ -92,7 +93,7 @@ function Header(){
           </li>
           <li className="block py-3 md:inline md:py-0">
             <a
-              href="#contact"
+              href="/#contact"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
               >Contact

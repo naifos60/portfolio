@@ -1,6 +1,6 @@
-const tel = ('/static/media/tel.93954ee73e33bb3bc7f6f951a904f45a.svg') as string;
-const linkedin = ('static/media/linkedin.c11a51dc5395675c338ae20f84fcfa75.svg') as string;
-const email = ('/static/media/email.2767dafc823adc143f013fc1cf029498.svg') as string;
+const tel = ('./assets/images/tel.svg') as string;
+const linkedin = ('./assets/images/linkedin.svg') as string;
+const email = ('./assets/images/email.svg') as string;
 
 function Contact() {
     return (
