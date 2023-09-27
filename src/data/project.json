@@ -7,7 +7,7 @@
         "url2": "https://github.com/naifos60/bookie.git",
         "skills":[
             {
-                "url": "./assets/images/htmlcss.webp",
+                "url": "./assets/images/htmlcssProgress.webp",
                 "title": "html et css"
             }
         ],
@@ -21,7 +21,7 @@
         "url2": "https://github.com/naifos60/OH-MY-FOOD-P4.git",
         "skills":[
             {
-                "url": "./assets/images/htmlcss.webp",
+                "url": "./assets/images/htmlcssProgress.webp",
                 "title": "html et css"
             },
             {
@@ -40,11 +40,11 @@
         "skills":[   
             {
                 "title":"html et css",
-                "url": "./assets/images/htmlcss.webp"
+                "url": "./assets/images/htmlcssProgress.webp"
             },
             {
                 "title": "SEO",
-                "url": "./assets/images/seo.png"
+                "url": "./assets/images/seoProgress.webp"
             }
         ],
         "content": "La photographe Nina Carducci a demandée de faire une optimisation tant sur les performances que sur le SEO. Mettre en place le référencement local. Ajouter les metas pour les réseaux sociaux. Faire les modifications liées à l’accessibilité du site. Produire un rapport d’optimisation présentant toutes mes actions et leur impact."   
@@ -57,7 +57,7 @@
         "url2": "https://github.com/naifos60/kasa-P8.git",
         "skills":[
             {
-                "url": "./assets/images/htmlcss.webp",
+                "url": "./assets/images/htmlcssProgress.webp",
                 "title": "html et css"
             },
             {
@@ -66,11 +66,11 @@
             },
             {
                 "title": "Javascript",
-                "url": "./assets/images/js.webp"
+                "url": "./assets/images/jsProgress.webp"
             },
             {
                 "title": "React",
-                "url": "./assets/images/react.webp"
+                "url": "./assets/images/reactProgress.webp"
             }
         ],
         "content":"Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Nous avons donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end."        
@@ -82,12 +82,12 @@
         "url2": "https://github.com/naifos60/Portfolio-architecte-sophie-bluel.git",
         "skills":[
             {
-                "url": "./assets/images/htmlcss.webp",
+                "url": "./assets/images/htmlcssProgress.webp",
                 "title": "html et css"
             },
             {
                 "title": "Javascript",
-                "url": "./assets/images/js.webp"
+                "url": "./assets/images/jsProgress.webp"
             }
         ],
         "content":"Conception du site portfolio d’une architecte d’intérieur. Création de la page de présentation des travaux de l'architecte, la page de connexion de l'administrateur du site, la modale permettant d'uploader de nouveaux médias, ainsi que tout le lien avec le backend (appel API, gestion authentification, token, erreur)."
@@ -99,16 +99,16 @@
         "url2": "https://github.com/naifos60/argent-bank-projet11.git",
         "skills":[
             {
-                "url": "./assets/images/htmlcss.webp",
+                "url": "./assets/images/htmlcssProgress.webp",
                 "title": "html et css"
             },
             {
                 "title": "Javascript",
-                "url": "./assets/images/js.webp"
+                "url": "./assets/images/jsProgress.webp"
             },
             {
                 "title": "React",
-                "url": "./assets/images/react.webp"
+                "url": "./assets/images/reactProgress.webp"
             },
             {
                 "title": "Redux",
@@ -125,20 +125,20 @@
         "url2": "https://github.com/naifos60/Debuggez-une-application-React.JS.git",
         "skills":[
             {
-                "url": "./assets/images/htmlcss.webp",
+                "url": "./assets/images/htmlcssProgress.webp",
                 "title": "html et css"
             },
             {
                 "title": "Javascript",
-                "url": "./assets/images/js.webp"
+                "url": "./assets/images/jsProgress.webp"
             },
             {
                 "title": "React",
-                "url": "./assets/images/react.webp"
+                "url": "./assets/images/reactProgress.webp"
             },
             {
                 "title": "Jest",
-                "url": "./assets/images/jest2.webp"
+                "url": "./assets/images/jest2Progress.webp"
             }
         ],
         "content":"L’agence 77 Events souhaitait publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design avait été validé, et un premier développeur freelance avait commencé l’intégration. Ce freelance a dû abandonner le projet pour raisons personnelles. Le site était fonctionnel, mais quelques bugs entravaient le bon usage par les visiteurs. 77events a donc fait appel à moi pour finaliser le travail."

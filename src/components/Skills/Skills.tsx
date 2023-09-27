@@ -12,7 +12,7 @@ function Skills() {
                     <img src={bureau} alt="bureau avec ordinateur dessus" className='hidden lg:flex w-auto h-auto lg:h-555 lg:w-2/4 object-contains lg:my-0 lg:flex-start px-8 lg:pl-0 my-8 lg:mx-0 lg:border-r-2 pb-12 lg:pb-0 lg:pr-36 lg:rounded 'style={{borderRadius: "0% 100% 57% 43% / 98% 65% 35% 2%"}}/>
                 <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 lg:pt-24 '>
                     {data.map((el) => (
-                        <Progress key={el.id} percent={el.percent} color={el.color} logo={el.logo} skill={el.title}>
+                        <Progress key={el.id} percent={el.percent} color={el.color} logo={el.logo} logo2={el.logo2} skill={el.title}>
                          {<ul className='text-left'>
                             {el.skill.map((e, index) => (
                                 <li className='my-4 text-xs list-decimal' key={index}>{e}</li>

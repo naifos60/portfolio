@@ -1,5 +1,5 @@
 type cardProps = {
-    logo: string;
+    logo: string | undefined;
     title: string;
     content: string;
 }

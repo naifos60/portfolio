@@ -6,11 +6,12 @@ import { useState} from 'react'
   percent: string;
   color: string;
   logo: string;
+  logo2?:string;
   skill: string;
   children: any;
 }
 
-function Progress({percent, color, logo, skill, children}: progressProps) {
+function Progress({percent, color, logo,logo2, skill, children}: progressProps) {
   const [open, setOpen] = useState(false);
   const [hover, setHover] = useState(false);
 
@@ -30,7 +31,7 @@ function Progress({percent, color, logo, skill, children}: progressProps) {
         </div>
       </div>
       {open &&
-      <Modal open={open} onClose={() => setOpen(false)} children={<Card logo={logo} title={skill} content={children}/>}/>}
+      <Modal open={open} onClose={() => setOpen(false)} children={<Card logo={logo2} title={skill} content={children}/>}/>}
     </div>
     
 

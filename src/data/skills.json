@@ -2,7 +2,8 @@
     {
         "id": "1",
         "title": "REACT.JS",
-        "logo" : "./assets/images/react.webp",
+        "logo" : "./assets/images/reactProgress.webp",
+        "logo2" : "./assets/images/react.webp",
         "percent": "85%",
         "color": "#C7335C",
         "skill": [
@@ -19,7 +20,8 @@
     {
         "id": "2",
         "title": "JAVASCRIPT",
-        "logo" : "./assets/images/js.webp",
+        "logo" : "./assets/images/jsProgress.webp",
+        "logo2" : "./assets/images/js.webp",
         "percent": "80%",
         "color": "#5E308B",
         "skill": [
@@ -33,7 +35,8 @@
     {
         "id": "3",
         "title": "TYPESCRIPT",
-        "logo" : "./assets/images/typescript.webp",
+        "logo" : "./assets/images/typescriptProgress.webp",
+        "logo2" : "./assets/images/typescript.webp",
         "percent": "80%",
         "color": "royalblue",
         "skill": [
@@ -51,7 +54,8 @@
     {
         "id": "4",
         "title": "HTML&CSS",
-        "logo" : "./assets/images/htmlcss.webp",
+        "logo" : "./assets/images/htmlcssProgress.webp",
+        "logo2": "./assets/images/htmlcss.webp",
         "percent": "90%",
         "color": "#4DA59C",
         "skill": [
@@ -70,7 +74,8 @@
     {
         "id": "5",
         "title": "SEO",
-        "logo" : "./assets/images/seo.webp",
+        "logo" : "./assets/images/seoProgress.webp",
+        "logo2": "./assets/images/seo.webp",
         "percent": "90%",
         "color": "#42914D",
         "skill": [
@@ -90,7 +95,8 @@
     {
         "id": "6",
         "title": "AGILE",
-        "logo" : "./assets/images/agile.webp",
+        "logo" : "./assets/images/agileProgress.webp",
+        "logo2": "./assets/images/agile.webp",
         "percent": "80%",
         "color": "#98C454",
         "skill": [
@@ -111,7 +117,8 @@
     {
         "id": "7",
         "title": "JEST",
-        "logo" : "./assets/images/jest2.webp",
+        "logo" : "./assets/images/jest2Progress.webp",
+        "logo2": "./assets/images/jest2.webp",
         "percent": "60%",
         "color": "#F09C38",
         "skill": [
@@ -127,7 +134,8 @@
     {
         "id": "8",
         "title": "GIT&GITHUB",
-        "logo" : "./assets/images/GitHublogo.webp",
+        "logo" : "./assets/images/GitHublogoProgress.webp",
+        "logo2" : "./assets/images/GitHublogo.webp",
         "percent": "75%",
         "color": "gold",
         "skill": [
