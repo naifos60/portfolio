@@ -6,7 +6,7 @@ const cross = ("./assets/images/cross.svg") as string;
 function Header(){
  const [open, setOpen] = useState('hidden')
 
- function toggleNav(){
+ function toggleNav() : void{
   const toggleMenuBtn = document.querySelector("#menu-toggler")!;
   const toggleMenuImg = document.querySelector("#menu-toggler img")!;
   const mainNavlist = document.querySelector("#main-navlist")!;
