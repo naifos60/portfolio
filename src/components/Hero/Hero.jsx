@@ -1,7 +1,6 @@
 
 import Typed from "react-typed"
 import ParticlesBackground from "../Particles/ParticlesBackgound"
-
 const cv =  ("./assets/document/Sofiane Rhrara.pdf")
 
 function Hero() {

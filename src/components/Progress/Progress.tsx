@@ -1,13 +1,13 @@
 import Card from '../Card/Card'
 import Modal from '../Modal/Modal'
-import {useState} from 'react'
+import { useState} from 'react'
 
  type progressProps = {
   percent: string;
   color: string;
   logo: string;
   skill: string;
-  children: string;
+  children: any;
 }
 
 function Progress({percent, color, logo, skill, children}: progressProps) {

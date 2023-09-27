@@ -1,10 +1,7 @@
 import { useState } from "react";
-
 const logoRs = ("./assets/images/logoRs.webp") as string;
 const menu = ("./assets/images/menu.svg") as string;
 const cross = ("./assets/images/cross.svg") as string;
-
-
 
 function Header(){
  const [open, setOpen] = useState('hidden')

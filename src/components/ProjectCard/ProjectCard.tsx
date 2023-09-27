@@ -1,7 +1,15 @@
 import {Link} from 'react-router-dom';
-import PropTypes  from "prop-types";
 
-function ProjectCard({img, title,skills, url, url2, content}) {
+type ProjectCardProps = {
+    img: string;
+    title: string;
+    skills: {url: string,title: string}[];
+    url: string | undefined;
+    url2: string;
+    content: string;
+  }
+  
+function ProjectCard({img, title, skills, url, url2, content}: ProjectCardProps) {
     return(
     <div className="flex  flex-col justify-center items-center bg-gradient-to-t from-[hsl(218,81%,75%)] rounded-xl gap-4">
         <div className='cursor-pointer group h-96 w-96 [perspective:1000px]'>
@@ -34,15 +42,6 @@ function ProjectCard({img, title,skills, url, url2, content}) {
         </div>
     </div>
     )
-}
-
-ProjectCard.propsTypes= {
-    img: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    skills: PropTypes.array.isRequired,
-    url: PropTypes.string,
-    url2: PropTypes.string,
-    content: PropTypes.string.isRequired,
 }
 
 export default ProjectCard
