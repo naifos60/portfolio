@@ -13,7 +13,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='*' element={<Error />} />
           </Routes>
-          <Footer content="Copyright 2020 Argent Bank" />
+          <Footer />
         </Router>
   );
 }
