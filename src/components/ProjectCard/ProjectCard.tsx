@@ -15,7 +15,7 @@ function ProjectCard({img, title, skills, url, url2, content}: ProjectCardProps)
         <div className='cursor-pointer group h-96 w-96 [perspective:1000px]'>
             <div className="relative h-full w-full rounded-xl shadow-xl duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 <div className="absolute inset-0 flex flex-raw justify-center [backface-visibility:hidden]">
-                    <img src={img} alt={'logo' + title} className="px-4 py-2 -mt-8 mx-auto w-350 h-full object-cover"/>
+                    <img src={img} alt={'logo' + title} className="px-4 py-2 -mt-8 mx-auto w-full h-full object-cover"/>
                     <h2 className="mb-2 font-serif italic text-3xl top-0 absolute  text-[hsl(218,81%,95%)]">{title}</h2>
                 </div>
                 <div className="absolute flex flex-col justify-center inset-0 h-full w-full rounded-xl bg-gradient-to-t from-[hsl(218,81%,75%)]/80 px-12 text-center text-[hsl(218,81%,95%)] [transform:rotateY(180deg)] [backface-visibility:hidden]">
