@@ -1,0 +1,26 @@
+{
+    "header": {
+        "accueil": "accueil",
+        "présentation": "présentation",
+        "compétences": "compétences",
+        "projets": "projets",
+        "contact": "contact"
+    },
+    "hero": {
+        "Bonjour": "Bonjour, moi c'est Sofiane",
+        "typed1": "développeur web frontend Javascript",
+        "typed2": "développeur web frontend React.js",
+        "telecharger": "Télécharger mon CV"
+    },
+    "describe": {
+        "title1": "QUI SUIS-JE ?",
+        "title2": "Présentation",
+        "p1": "Après une carrière de 12 ans au sein des commandos de la force aérienne,je me suis naturellement orienté vers un métier de la sécurité en signant comme convoyeur de fonds pour brink’s sécurité Luxembourg !",
+        "p2": "Passionné par la tech et le développement en particulier, j’ai passé une certification professionnelle Développeur intégrateur web, enregistrée au Répertoire national des certifications professionnelles (RNCP), de niveau 5 sur les cadres français et européens des certifications (European Qualifications Framework). Malgré un temp plein dans la sécurité, j’ai obtenu mon diplôme en moins de 8mois, au lieux des 18 initialement prévu par le centre de formations (OpenClassrooms). Ce qui, je l'espère, montrera ma motivation et ma capacité d'apprentissage indépendamment de la technologie à apprendre et à mettre en pratique. La discipline, la rigueur, le perfectionnisme, l’esprit d’équipe, et tant d’autres valeurs appris et appliqué tout au long de mes années passées au seins des commandos ont fait de moi quelqu’un de déterminé soucieux du travail bien fait.",
+        "p3": "Les différents projets sur lesquels j'ai pu travailler m'ont permis d'acquérir un grand nombre de connaissances, ainsi qu'une maîtrise de différents langages, framework, bibliothèques ou outils de développement. Parmis lesquels HTML5, CSS3, Javascript et Typescript mais aussi React, Node, Tailwind, Sass, Jest et plusieurs autres compétences comme le référencement, la gestion de projets Agile, la méthode SCRUM et les tableaux kanban...",
+        "p4": "Vous trouverez plus de détails sur quelqu'une de ses compétences ",
+        "p5": "ICI",
+        "p6": "ainsi que certains projets également",
+        "p7": " Tant de compétence qui Je l'espère me permettrons de trouver une société qui me donnera une chance et me permettra d'augmenter mes compétences tout en partageant mes connaissances au sein d'une équipe dans un cadre professionnel."
+    }
+}

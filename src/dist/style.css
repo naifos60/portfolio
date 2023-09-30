@@ -761,6 +761,10 @@ video {
   margin-left: 3rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -886,10 +890,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .max-w-lg {
@@ -1467,6 +1467,14 @@ video {
           transform: rotateY(180deg);
 }
 
+html{
+  width: -webkit-max-content;
+  width: max-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1858,6 +1866,10 @@ video {
 
   .lg\:pr-36 {
     padding-right: 9rem;
+  }
+
+  .lg\:pt-12 {
+    padding-top: 3rem;
   }
 
   .lg\:pt-4 {

@@ -1,0 +1,26 @@
+{
+    "header": {
+        "accueil": "home",
+        "présentation": "about me",
+        "compétences": "skills",
+        "projets": "projects",
+        "contact": "contact"
+    },
+    "hero": {
+        "Bonjour": "Hello, I'm Sofiane",
+        "typed1": "Web developer frontend Javascript",
+        "typed2": "Web developer frontend React.js",
+        "telecharger": "Download CV"
+    },
+    "describe": {
+        "title1": "WHO I AM ?",
+        "title2": "About me",
+        "p1": "After a 12-year career in the air force commandos, I naturally moved towards a security profession by signing up as a cash conveyor for brink’s security Luxembourg!",
+        "p2": "Passionate about tech and development in particular, I passed a professional certification as a Web Integrator Developer, registered in the National Directory of Professional Certifications (RNCP), level 5 on the French and European certification frameworks (European Qualifications Framework). Despite working full time in security, I obtained my diploma in less than 8 months, instead of the 18 initially planned by the training center (OpenClassrooms). Which I hope will show my motivation and ability to learn regardless of the technology to be learned and put into practice. Discipline, rigor, perfectionism, team spirit, and so many other values learned and applied throughout my years spent in the commandos have made me someone determined and concerned about a job well done.",
+        "p3": "The different projects on which I was able to work allowed me to acquire a large amount of knowledge, as well as a mastery of different languages, frameworks, libraries or development tools. Among which HTML5, CSS3, Javascript and Typescript but also React, Node, Tailwind, Sass, Jest and several other skills such as SEO, Agile project management, the SCRUM method and kanban boards...",
+        "p4": "You will find more details about any of his skills ",
+        "p5": "HERE",
+        "p6": "as well as certain projects also",
+        "p7": " So many skills which I hope will allow me to find a company which will give me a chance and allow me to increase my skills while sharing my knowledge within a team in a professional setting."
+    }
+}
