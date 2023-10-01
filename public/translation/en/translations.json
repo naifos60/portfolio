@@ -109,9 +109,13 @@
     },
     "contact": {
         "title1": "CONTACT",
-        "title2": "Do not hesitate to contact me",
+        "title2": "Don't balk to contact me",
         "call":"CLICK TO CALL",
         "mail":"send an email",
         "linkedin": "By linkedin"
+    },
+    "error": {
+        "content": "Oops ! The page you are requesting does not exist.",
+        "link": "Return to home page"
     }
 }

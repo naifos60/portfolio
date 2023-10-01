@@ -113,5 +113,9 @@
         "call":"CLIQUEZ POUR APPELER",
         "mail":"envoyer un email",
         "linkedin": "Par linkedin"
+    },
+    "error": {
+        "content": "Oups! La page que vous demandez n'existe pas.",
+        "link": "Retourner sur la page d’accueil"
     }
 }
