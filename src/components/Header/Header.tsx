@@ -104,7 +104,7 @@ function Header(){
             </a>
           </li>
         </ul>
-        <div className="block py-3 md:inline md:py-0 ">
+        <div className="block md:inline py-0 ">
             <select className="text-3xl uppercase font-semibold" onChange={handleLangChange} defaultValue={'en'}>
               <option value={"en"}> 🇬🇧</option>
               <option value={"fr"}>🇫🇷</option>
