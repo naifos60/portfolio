@@ -102,13 +102,13 @@ function Header(){
               >{t('header.contact')}
             </a>
           </li>
-          <li className="block py-3 md:inline md:py-0">
-            <select className="text-sm uppercase font-semibold bg-gradient-to-t from-[hsl(218,81%,75%)] ml-4 py-2 px-2" onChange={handleLangChange} defaultValue={'fr'}>
-              <option value={"fr"} >FR</option>
-              <option value={"en"}>EN</option>
-            </select>
-          </li>
         </ul>
+        <div className="block py-3 md:inline md:py-0">
+            <select className="text-sm uppercase font-semibold bg-gradient-to-t from-[hsl(218,81%,75%)]  p-2" onChange={handleLangChange} defaultValue={'en'}>
+              <option value={"en"}>EN</option>
+              <option value={"fr"} >FR</option>
+            </select>
+          </div>
       </div>
     </nav>
 </header>)

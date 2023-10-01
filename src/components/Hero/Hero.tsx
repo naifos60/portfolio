@@ -6,6 +6,8 @@ const cv =  ("./assets/document/Sofiane Rhrara.pdf")
 
 function Hero() {
   const { t } = useTranslation();
+  const typed1 = `${t('hero.typed1')}`
+  const typed2 = `${t('hero.typed2')}`
     return(
 <div id="acceuil" className=" text-center w-full h-full lg:text-left sm:h-auto md:h-555  md:flex md:items-center bg-cover md:bg-contain bg-no-repeat bg-top  md:bg-right  bg-sof2  lg:bg-sof lg:mt-48">
     <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl flex xl:items-center">
@@ -14,8 +16,8 @@ function Hero() {
           <h1 className="mt-O mb-8 text-6xl font-bold tracking-tight xl:text-7xl text-[hsl(218,81%,95%)]">
             {t('hero.Bonjour')} <br /><span className="text-[hsl(218,81%,75%)] drop-shadow-xl italic font-serif  font-medium">
               <Typed strings={[
-                `${t('hero.typed1')}`,
-                `${t('hero.typed2')}`
+                typed1,
+                typed2
             ]}
                 typeSpeed={50}
                 backSpeed={45}
