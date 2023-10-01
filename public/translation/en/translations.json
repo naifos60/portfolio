@@ -117,5 +117,301 @@
     "error": {
         "content": "Oops ! The page you are requesting does not exist.",
         "link": "Return to home page"
-    }
+    },
+    "dataSkills": [
+        {
+            "id": "1",
+            "title": "REACT.JS",
+            "logo" : "./assets/images/reactProgress.webp",
+            "logo2" : "./assets/images/react.webp",
+            "percent": "85%",
+            "color": "#C7335C",
+            "skill": [
+                "skills.reactJsSkill1",
+                "skills.reactJsSkill2",
+                "skills.reactJsSkill3",
+                "skills.reactJsSkill4",
+                "skills.reactJsSkill5",
+                "skills.reactJsSkill6",
+                "skills.reactJsSkill7",
+                "skills.reactJsSkill8"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "JAVASCRIPT",
+            "logo" : "./assets/images/jsProgress.webp",
+            "logo2" : "./assets/images/js.webp",
+            "percent": "80%",
+            "color": "#5E308B",
+            "skill": [
+                "skills.javascriptSkill1",
+                "skills.javascriptSkill2",
+                "skills.javascriptSkill3",
+                "skills.javascriptSkill4",
+                "skills.javascriptSkill5"
+            ]   
+        },
+        {
+            "id": "3",
+            "title": "TYPESCRIPT",
+            "logo" : "./assets/images/typescriptProgress.webp",
+            "logo2" : "./assets/images/typescript.webp",
+            "percent": "80%",
+            "color": "royalblue",
+            "skill": [
+                "skills.typeScriptContent1",
+                "skills.typeScriptContent2",
+                "skills.typeScriptContent3",
+                "skills.typeScriptContent4",
+                "skills.typeScriptContent5",
+                "skills.typeScriptContent6",
+                "skills.typeScriptContent7",
+                "skills.typeScriptContent8",
+                "skills.typeScriptContent9"
+            ]   
+        },
+        {
+            "id": "4",
+            "title": "HTML&CSS",
+            "logo" : "./assets/images/htmlcssProgress.webp",
+            "logo2": "./assets/images/htmlcss.webp",
+            "percent": "90%",
+            "color": "#4DA59C",
+            "skill": [
+                "skills.htmlCssContent1",
+                "skills.htmlCssContent2",
+                "skills.htmlCssContent3",
+                "skills.htmlCssContent4",
+                "skills.htmlCssContent5",
+                "skills.htmlCssContent6",
+                "skills.htmlCssContent7",
+                "skills.htmlCssContent8",
+                "skills.htmlCssContent9",
+                "skills.htmlCssContent10"
+            ]  
+        },
+        {
+            "id": "5",
+            "title": "SEO",
+            "logo" : "./assets/images/seoProgress.webp",
+            "logo2": "./assets/images/seo.webp",
+            "percent": "90%",
+            "color": "#42914D",
+            "skill": [
+                "skills.seoContent1",
+                "skills.seoContent2",
+                "skills.seoContent3",
+                "skills.seoContent4",
+                "skills.seoContent5",
+                "skills.seoContent6",
+                "skills.seoContent7",
+                "skills.seoContent8",
+                "skills.seoContent9",
+                "skills.seoContent10",
+                "skills.seoContent11"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "AGILE",
+            "logo" : "./assets/images/agileProgress.webp",
+            "logo2": "./assets/images/agile.webp",
+            "percent": "80%",
+            "color": "#98C454",
+            "skill": [
+                "skills.agileContent1",
+                "skills.agileContent2",
+                "skills.agileContent3",
+                "skills.agileContent4",
+                "skills.agileContent5",
+                "skills.agileContent6",
+                "skills.agileContent7",
+                "skills.agileContent8",
+                "skills.agileContent9",
+                "skills.agileContent10",
+                "skills.agileContent11",
+                "skills.agileContent12"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "JEST",
+            "logo" : "./assets/images/jest2Progress.webp",
+            "logo2": "./assets/images/jest2.webp",
+            "percent": "60%",
+            "color": "#F09C38",
+            "skill": [
+                "skills.jestContent1",
+                "skills.jestContent2",
+                "skills.jestContent3",
+                "skills.jestContent4",
+                "skills.jestContent5",
+                "skills.jestContent6",
+                "skills.jestContent7"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "GIT&GITHUB",
+            "logo" : "./assets/images/GitHublogoProgress.webp",
+            "logo2" : "./assets/images/GitHublogo.webp",
+            "percent": "75%",
+            "color": "gold",
+            "skill": [
+                "skills.gitHubContent1",
+                "skills.gitHubContent2",
+                "skills.gitHubContent3",
+                "skills.gitHubContent4",
+                "skills.gitHubContent5",
+                "skills.gitHubContent6"
+            ]
+        }
+    ],
+    "dataProject": [
+        {
+            "id": "1",
+            "title": "Bookie",
+            "img": "./assets/images/cardBookie.webp",
+            "url": "https://bookie-naifos60.vercel.app/",
+            "url2": "https://github.com/naifos60/bookie.git",
+            "skills":[
+                {
+                    "url": "./assets/images/htmlcssProgress.webp",
+                    "title": "html et css"
+                }
+            ],
+            "content": "project.bookieContent"
+        },
+        {
+            "id": "2",
+            "title": "Oh my food",
+            "img": "./assets/images/cardOhMyFood.webp",
+            "url": "https://oh-my-food-p4.vercel.app/",
+            "url2": "https://github.com/naifos60/OH-MY-FOOD-P4.git",
+            "skills":[
+                {
+                    "url": "./assets/images/htmlcssProgress.webp",
+                    "title": "html et css"
+                },
+                {
+                    "title": "Sass",
+                    "url": "./assets/images/sass.webp"
+                }
+            ],
+            "content": "project.ohMyFoodContent"
+        },
+        {
+            "id": "3",
+            "title": "Nina Carducci photo",
+            "img": "./assets/images/cardNina.webp",
+            "url": "https://naifos60.github.io/ninacarducci.github.io-main/",
+            "url2": "https://github.com/naifos60/ninacarducci.github.io-main.git",
+            "skills":[   
+                {
+                    "title":"html et css",
+                    "url": "./assets/images/htmlcssProgress.webp"
+                },
+                {
+                    "title": "SEO",
+                    "url": "./assets/images/seoProgress.webp"
+                }
+            ],
+            "content": "project.ninaCarducciContent"   
+        },
+        {
+            "id": "4",
+            "title": "Kasa",
+            "img": "./assets/images/cardKasa.webp",
+            "url": "https://kasa-p8.vercel.app/",
+            "url2": "https://github.com/naifos60/kasa-P8.git",
+            "skills":[
+                {
+                    "url": "./assets/images/htmlcssProgress.webp",
+                    "title": "html et css"
+                },
+                {
+                    "title": "Sass",
+                    "url": "./assets/images/sass.webp"
+                },
+                {
+                    "title": "Javascript",
+                    "url": "./assets/images/jsProgress.webp"
+                },
+                {
+                    "title": "React",
+                    "url": "./assets/images/reactProgress.webp"
+                }
+            ],
+            "content":"project.kasaContent"        
+        },
+        {
+            "id": "5",
+            "title": "Sophie Bluel",
+            "img": "./assets/images/cardSophie.webp",
+            "url2": "https://github.com/naifos60/Portfolio-architecte-sophie-bluel.git",
+            "skills":[
+                {
+                    "url": "./assets/images/htmlcssProgress.webp",
+                    "title": "html et css"
+                },
+                {
+                    "title": "Javascript",
+                    "url": "./assets/images/jsProgress.webp"
+                }
+            ],
+            "content":"project.sophieBluelContent"
+        },
+        {
+            "id": "6",
+            "title": "Bank tree",
+            "img": "./assets/images/cardArgent.webp",
+            "url2": "https://github.com/naifos60/argent-bank-projet11.git",
+            "skills":[
+                {
+                    "url": "./assets/images/htmlcssProgress.webp",
+                    "title": "html et css"
+                },
+                {
+                    "title": "Javascript",
+                    "url": "./assets/images/jsProgress.webp"
+                },
+                {
+                    "title": "React",
+                    "url": "./assets/images/reactProgress.webp"
+                },
+                {
+                    "title": "Redux",
+                    "url": "./assets/images/redux.webp"
+                }
+            ],
+            "content":"project.bankTreeContent"
+        },
+        {
+            "id": "7",
+            "title": "77 Events",
+            "img": "./assets/images/card77Events.webp",
+            "url":"https://77events-naifos60.vercel.app/",
+            "url2": "https://github.com/naifos60/Debuggez-une-application-React.JS.git",
+            "skills":[
+                {
+                    "url": "./assets/images/htmlcssProgress.webp",
+                    "title": "html et css"
+                },
+                {
+                    "title": "Javascript",
+                    "url": "./assets/images/jsProgress.webp"
+                },
+                {
+                    "title": "React",
+                    "url": "./assets/images/reactProgress.webp"
+                },
+                {
+                    "title": "Jest",
+                    "url": "./assets/images/jest2Progress.webp"
+                }
+            ],
+            "content":"project.77EventContent"
+        }
+    ]
 }
