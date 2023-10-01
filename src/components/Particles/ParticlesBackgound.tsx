@@ -1,5 +1,5 @@
 import Particles from "react-tsparticles";
-import options from '../config/particlesConfig'
+import options from './config/particlesConfig'
 import { useCallback } from "react";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
