@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {useTranslation} from "react-i18next"
+import {useTranslation} from "react-i18next";
 const logoRs = ("./assets/images/logoRs.webp") as string;
 const menu = ("./assets/images/menu.svg") as string;
 const cross = ("./assets/images/cross.svg") as string;
@@ -7,6 +7,7 @@ const cross = ("./assets/images/cross.svg") as string;
 function Header(){
  const [open, setOpen] = useState('hidden')
  const { t, i18n } = useTranslation('fr', {useSuspense: false});
+ 
 
  function handleLangChange(e: React.ChangeEvent<HTMLSelectElement>): void{
   i18n.changeLanguage(e.target.value)
@@ -103,10 +104,10 @@ function Header(){
             </a>
           </li>
         </ul>
-        <div className="block py-3 md:inline md:py-0">
-            <select className="text-sm uppercase font-semibold bg-gradient-to-t from-[hsl(218,81%,75%)]  p-2" onChange={handleLangChange} defaultValue={'en'}>
-              <option value={"en"}>EN</option>
-              <option value={"fr"} >FR</option>
+        <div className="block py-3 md:inline md:py-0 ">
+            <select className="text-3xl uppercase font-semibold" onChange={handleLangChange} defaultValue={'en'}>
+              <option value={"en"}> 🇬🇧</option>
+              <option value={"fr"}>🇫🇷</option>
             </select>
           </div>
       </div>
