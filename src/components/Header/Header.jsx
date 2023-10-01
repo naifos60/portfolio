@@ -1,18 +1,24 @@
-import menu from "../../assets/images/menu.svg";
-import cross from "../../assets/images/cross.svg";
-import logoRs from '../../assets/images/logo/logoRs.webp';
 import { useState } from "react";
+import {useTranslation} from "react-i18next"
+const logoRs = ("./assets/images/logoRs.webp") as string;
+const menu = ("./assets/images/menu.svg") as string;
+const cross = ("./assets/images/cross.svg") as string;
 
 function Header(){
  const [open, setOpen] = useState('hidden')
+ const { t, i18n } = useTranslation('fr', {useSuspense: false});
 
- function toggleNav(){
-  const toggleMenuBtn = document.querySelector("#menu-toggler");
-  const toggleMenuImg = document.querySelector("#menu-toggler img");
-  const mainNavlist = document.querySelector("#main-navlist");
+ function handleLangChange(e: React.ChangeEvent<HTMLSelectElement>): void{
+  i18n.changeLanguage(e.target.value)
+ }
+
+ function toggleNav() : void{
+  const toggleMenuBtn = document.querySelector("#menu-toggler")!;
+  const toggleMenuImg = document.querySelector("#menu-toggler img")!;
+  const mainNavlist = document.querySelector("#main-navlist")!;
 
   if(mainNavlist.classList.contains("hidden")){
-      setOpen(null)
+      setOpen('null')
       toggleMenuImg.setAttribute("src", cross);
       toggleMenuBtn.setAttribute("aria-expanded", "true");
     }
@@ -28,7 +34,7 @@ function Header(){
     <nav className="bg-white z-50 fixed top-0 w-full shadow-lg shadow-[hsl(218,81%,75%)]">
       <div
         id="main-nav"
-        className="bg-white max-w-3xl mx-auto p-4 flex items-center justify-between flex-wrap  md:mx-0 md:max-w-full"
+        className="bg-white  mx-auto p-4 flex items-center justify-between flex-wrap  md:mx-0 md:max-w-full"
       >
         <a
           href="/"
@@ -62,7 +68,7 @@ function Header(){
               href="/#acceuil"
               className="text-sm uppercase font-semibold hover:text-rose-600 "
               onClick={toggleNav}
-              >Accueil
+              >{t('header.accueil')}
             </a>
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
@@ -70,14 +76,14 @@ function Header(){
               href="/#description"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
-              >Présentation
+              >{t('header.présentation')}
             </a>
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
-            <a href="#competences"
+            <a href="/#competences"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
-              >Compétences
+              >{t('header.compétences')}
             </a>
           </li>
           <li className="block py-3 md:inline md:py-0 md:mr-6">
@@ -85,7 +91,7 @@ function Header(){
               href="/#projets"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
-              >Projets
+              >{t('header.projets')}
             </a>
           </li>
           <li className="block py-3 md:inline md:py-0">
@@ -93,8 +99,14 @@ function Header(){
               href="/#contact"
               className="text-sm uppercase font-semibold hover:text-rose-600"
               onClick={toggleNav}
-              >Contact
+              >{t('header.contact')}
             </a>
+          </li>
+          <li className="block py-3 md:inline md:py-0">
+            <select className="text-sm uppercase font-semibold bg-gradient-to-t from-[hsl(218,81%,75%)] ml-4 py-2 px-2" onChange={handleLangChange} defaultValue={'fr'}>
+              <option value={"fr"} >FR</option>
+              <option value={"en"}>EN</option>
+            </select>
           </li>
         </ul>
       </div>

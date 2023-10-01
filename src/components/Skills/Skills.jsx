@@ -1,30 +1,23 @@
-import Progress from '../../components/Progress/Progress'
-import bureau from '../../assets/images/background/5.webp'
+import Progress from '../Progress/Progress'
 import datas from '../../data/skills.json'
-import react from '../../assets/images/logo/react.webp'
-import js from '../../assets/images/logo/js.webp'
-import agile from '../../assets/images/logo/agile.webp'
-import htmlcss from '../../assets/images/logo/htmlcss.webp'
-import gitHub from'../../assets/images/logo/GitHublogo.webp'
-import seo from'../../assets/images/logo/seo.webp'
-import jest from '../../assets/images/logo/jest2.webp'
-import typescript from '../../assets/images/logo/typescript.webp'
-
+import {useTranslation} from "react-i18next"
+const bureau = ('./assets/images/background/5.webp')
 
 function Skills() {
     const data = datas
+    const { t } = useTranslation()
     return(
-        <section id='competences' className='mx-auto   flex flex-col items-center relative lg:h-full lg:mb-24'>
-            <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>A PROPOS</h2>
-            <h3 className='font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>Mes compétences à votre service</h3>
-            <div className='flex flex-col lg:flex-row justify-center items-center lg:pt-12 w-full h-full'>
+        <section id='competences' className='mx-auto   flex flex-col items-center relative w-full h-full lg:mb-24'>
+            <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>{t('skills.title1')}</h2>
+            <h3 className='font-serif italic  mt-12 md:py-2 md:px-2 mb-12 lg:mb-0 text-3xl md:text-6xl text-white text-center z-10'>{t('skills.title2')}</h3>
+            <div className='flex flex-col lg:flex-row justify-center items-center w-full h-full lg:pt-12'>
                     <img src={bureau} alt="bureau avec ordinateur dessus" className='hidden lg:flex w-auto h-auto lg:h-555 lg:w-2/4 object-contains lg:my-0 lg:flex-start px-8 lg:pl-0 my-8 lg:mx-0 lg:border-r-2 pb-12 lg:pb-0 lg:pr-36 lg:rounded '/>
-                <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 lg:pt-6 '>
+                <div className='flex flex-col w-full items-center justify-center gap-6 lg:pl-24 h-auto mb-4 lg:pt-4 '>
                     {data.map((el) => (
-                        <Progress key={el.id} percent={el.percent} color={el.color} logo={el.logo} skill={el.title}>
+                        <Progress key={el.id} percent={el.percent} color={el.color} logo={el.logo} logo2={el.logo2} skill={el.title}>
                          {<ul className='text-left'>
                             {el.skill.map((e, index) => (
-                                <li className='my-4 text-xs list-decimal' key={index}>{e}</li>
+                                <li className='my-4 text-xs list-decimal' key={index}>{t(e)}</li>
                             ))}
                           </ul>}
                         </Progress>
