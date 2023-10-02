@@ -6,6 +6,7 @@ function Skills() {
     const { t } = useTranslation()
     const dataSkills = t('dataSkills', { returnObjects: true });
     const dat: any = dataSkills
+
     return(
         <section id='competences' className='mx-auto   flex flex-col items-center relative w-full h-full lg:mb-24'>
             <h2 className='font-lora font-bold mt-10 md:py-2 md:px-2 mb-12 lg:mb-0 text-6xl md:text-9xl text-gray-400 text-center absolute  opacity-20 md:-top-10'>{t('skills.title1')}</h2>
@@ -16,8 +17,8 @@ function Skills() {
                     {dat.map((el: any) => (
                         <Progress key={el.id} percent={el.percent} color={el.color} logo={el.logo} logo2={el.logo2} skill={el.title}>
                          {<ul className='text-left'>
-                            {dat.map((e: any, index: any) => (
-                                <li className='my-4 text-xs list-decimal' key={index}>{t(e.skill)}</li>
+                            {el.skill.map((e: any, index: any) => (
+                                <li className='my-4 text-xs list-decimal' key={index}>{t(e)}</li>
                             ))}
                           </ul>}
                         </Progress>
