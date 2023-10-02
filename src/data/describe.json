@@ -1,0 +1,15 @@
+[
+    {
+        "title1": "QUI SUIS-JE ?",
+        "title2": "Présentation",
+        "content":[
+            "  Après une carrière de 12 ans au sein des commandos de la force aérienne, je me suis naturellement orienté vers un métier de la sécurité en signant comme convoyeur de fonds pour brink’s sécurité Luxembourg !",
+            
+            " Passionné par la tech et le développement en particulier, j’ai passé une certification professionnelle Développeur intégrateur web, enregistrée au Répertoire national des certifications professionnelles (RNCP), de niveau 5 sur les cadres français et européens des certifications (European Qualifications Framework). Malgré un temp plein dans la sécurité, j’ai obtenu mon diplôme en moins de 8mois, au lieux des 18 initialement prévu par le centre de formations (OpenClassrooms). Ce qui, je l'espère, montrera ma motivation et ma capacité d'apprentissage indépendamment de la technologie à apprendre et à mettre en pratique. La discipline, la rigueur, le perfectionnisme, l’esprit d’équipe, et tant d’autres valeurs appris et appliqué tout au long de mes années passées au seins des commandos ont fait de moi quelqu’un de déterminé soucieux du travail bien fait.",
+
+            " Les différents projets sur lesquels j'ai pu travailler m'ont permis d'acquérir un grand nombre de connaissances, ainsi qu'une maîtrise de différents langages, framework, bibliothèques ou outils de développement. Parmis lesquels HTML5, CSS3, Javascript et Typescript mais aussi React, Node, Tailwind, Sass, Jest et plusieurs autres compétences comme le référencement, la gestion de projets Agile, la méthode SCRUM et les tableaux kanban...",
+
+            " Vous trouverez plus de détails sur quelqu'une de ses compétences <a href='#competences' className='font-bold text-xl text-gray-800 cursor-pointer underline hover:text-red-600 hover:scale-120'>ICI</a> ainsi que certains projets également <a href='#projets' className='font-bold text-xl text-gray-800 cursor-pointer underline hover:text-red-600'>ICI</a> . Tant de compétence qui Je l'espère me permettrons de trouver une société qui me donnera une chance et me permettra d'augmenter mes compétences tout en partageant mes connaissances au sein d'une équipe dans un cadre professionnel."
+        ]
+    }
+]
